@@ -1,0 +1,16 @@
+# DataMate Baseline Configuration (Target: Local CPU & Kaggle T4 x2)
+pipeline:
+  name: "datamate_hybrid_rulebook_v1"
+  confidence_threshold: 0.65
+  use_disk_cache: true
+  cache_dir: "artifacts/cache"
+  rulebook_config: "configs/compiled_rulebook.yaml"
+
+llm:
+  enabled: false
+  model_id: "Qwen/Qwen2.5-Coder-7B-Instruct"
+  tensor_parallel_size: 2
+  dtype: "float16"
+  gpu_memory_utilization: 0.90
+  max_model_len: 4096
+  temperature: 0.0

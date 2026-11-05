@@ -1,0 +1,6398 @@
+{
+  "total_questions": 3000,
+  "total_score": 2124,
+  "normalized_score": 0.708,
+  "answered": 3000,
+  "coverage": 1.0,
+  "precision_on_answered": 0.854,
+  "counts": {
+    "CORRECT": 2562,
+    "ABSTAIN": 0,
+    "WRONG_VALUE": 297,
+    "WRONG_TYPE": 141,
+    "FORMAT_ERROR": 0
+  },
+  "malformed_lines": 0,
+  "by_type": {
+    "number": {
+      "total": 1884,
+      "score": 1392,
+      "correct": 1638,
+      "wrong": 246,
+      "abstain": 0
+    },
+    "percent": {
+      "total": 578,
+      "score": 342,
+      "correct": 460,
+      "wrong": 118,
+      "abstain": 0
+    },
+    "string": {
+      "total": 88,
+      "score": 86,
+      "correct": 87,
+      "wrong": 1,
+      "abstain": 0
+    },
+    "list": {
+      "total": 193,
+      "score": 111,
+      "correct": 152,
+      "wrong": 41,
+      "abstain": 0
+    },
+    "unanswerable": {
+      "total": 70,
+      "score": 54,
+      "correct": 62,
+      "wrong": 8,
+      "abstain": 0
+    },
+    "date": {
+      "total": 145,
+      "score": 119,
+      "correct": 132,
+      "wrong": 13,
+      "abstain": 0
+    },
+    "table": {
+      "total": 19,
+      "score": 5,
+      "correct": 12,
+      "wrong": 7,
+      "abstain": 0
+    },
+    "boolean": {
+      "total": 23,
+      "score": 15,
+      "correct": 19,
+      "wrong": 4,
+      "abstain": 0
+    }
+  },
+  "by_business": {
+    "biz_101": {
+      "total": 40,
+      "score": 38,
+      "correct": 39,
+      "wrong": 1,
+      "abstain": 0
+    },
+    "biz_102": {
+      "total": 119,
+      "score": 89,
+      "correct": 104,
+      "wrong": 15,
+      "abstain": 0
+    },
+    "biz_103": {
+      "total": 119,
+      "score": 63,
+      "correct": 91,
+      "wrong": 28,
+      "abstain": 0
+    },
+    "biz_104": {
+      "total": 119,
+      "score": 97,
+      "correct": 108,
+      "wrong": 11,
+      "abstain": 0
+    },
+    "biz_105": {
+      "total": 119,
+      "score": 85,
+      "correct": 102,
+      "wrong": 17,
+      "abstain": 0
+    },
+    "biz_106": {
+      "total": 119,
+      "score": 65,
+      "correct": 92,
+      "wrong": 27,
+      "abstain": 0
+    },
+    "biz_107": {
+      "total": 40,
+      "score": 40,
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "biz_108": {
+      "total": 119,
+      "score": 99,
+      "correct": 109,
+      "wrong": 10,
+      "abstain": 0
+    },
+    "biz_109": {
+      "total": 118,
+      "score": 80,
+      "correct": 99,
+      "wrong": 19,
+      "abstain": 0
+    },
+    "biz_110": {
+      "total": 40,
+      "score": 34,
+      "correct": 37,
+      "wrong": 3,
+      "abstain": 0
+    },
+    "biz_111": {
+      "total": 118,
+      "score": 64,
+      "correct": 91,
+      "wrong": 27,
+      "abstain": 0
+    },
+    "biz_112": {
+      "total": 118,
+      "score": 74,
+      "correct": 96,
+      "wrong": 22,
+      "abstain": 0
+    },
+    "biz_113": {
+      "total": 40,
+      "score": 40,
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "biz_114": {
+      "total": 40,
+      "score": 38,
+      "correct": 39,
+      "wrong": 1,
+      "abstain": 0
+    },
+    "biz_115": {
+      "total": 118,
+      "score": 104,
+      "correct": 111,
+      "wrong": 7,
+      "abstain": 0
+    },
+    "biz_116": {
+      "total": 118,
+      "score": 86,
+      "correct": 102,
+      "wrong": 16,
+      "abstain": 0
+    },
+    "biz_117": {
+      "total": 118,
+      "score": 82,
+      "correct": 100,
+      "wrong": 18,
+      "abstain": 0
+    },
+    "biz_118": {
+      "total": 118,
+      "score": 66,
+      "correct": 92,
+      "wrong": 26,
+      "abstain": 0
+    },
+    "biz_119": {
+      "total": 118,
+      "score": 92,
+      "correct": 105,
+      "wrong": 13,
+      "abstain": 0
+    },
+    "biz_120": {
+      "total": 118,
+      "score": 78,
+      "correct": 98,
+      "wrong": 20,
+      "abstain": 0
+    },
+    "biz_121": {
+      "total": 118,
+      "score": 72,
+      "correct": 95,
+      "wrong": 23,
+      "abstain": 0
+    },
+    "biz_122": {
+      "total": 118,
+      "score": 82,
+      "correct": 100,
+      "wrong": 18,
+      "abstain": 0
+    },
+    "biz_123": {
+      "total": 118,
+      "score": 68,
+      "correct": 93,
+      "wrong": 25,
+      "abstain": 0
+    },
+    "biz_124": {
+      "total": 118,
+      "score": 68,
+      "correct": 93,
+      "wrong": 25,
+      "abstain": 0
+    },
+    "biz_125": {
+      "total": 40,
+      "score": 40,
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "biz_126": {
+      "total": 40,
+      "score": 40,
+      "correct": 40,
+      "wrong": 0,
+      "abstain": 0
+    },
+    "biz_127": {
+      "total": 118,
+      "score": 80,
+      "correct": 99,
+      "wrong": 19,
+      "abstain": 0
+    },
+    "biz_128": {
+      "total": 118,
+      "score": 104,
+      "correct": 111,
+      "wrong": 7,
+      "abstain": 0
+    },
+    "biz_129": {
+      "total": 118,
+      "score": 86,
+      "correct": 102,
+      "wrong": 16,
+      "abstain": 0
+    },
+    "biz_130": {
+      "total": 118,
+      "score": 70,
+      "correct": 94,
+      "wrong": 24,
+      "abstain": 0
+    }
+  },
+  "errors": [
+    {
+      "id": "q_006c26c65d50",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "thang 7/2026 co bao nhiu don co dthu tu 55.000 dong tro len",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2345,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 370
+    },
+    {
+      "id": "q_0194d8d10f17",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Tính đến hết ngày 19/08/2026, có bao nhiêu khách còn nợ cửa hàng?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 35,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 44
+    },
+    {
+      "id": "q_026fa17395ed",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Tính đến hết ngày 25/05/2026, khách hàng còn nợ cửa hàng tổng cộng bao nhiêu tiền?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 948973,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 2749773
+    },
+    {
+      "id": "q_051bb0f610e4",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "tháng này, dthu các ddown trả bằng cod và các đơn trả bằng tm mỗi loại bao nhiêu",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        52063500,
+        432338000
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 47396500
+    },
+    {
+      "id": "q_05a8b30443a1",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "trong so khach da mua hang thang 7/2026, bnhiu % mua tu 8 don tro len",
+      "status": "WRONG_TYPE",
+      "gold_type": "unanswerable",
+      "gold_answer": null,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 0
+    },
+    {
+      "id": "q_0688c540085a",
+      "business_id": "biz_130",
+      "as_of_date": "2026-05-26",
+      "question": "tuần trước doanh thu bình quân mỗi đơn là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 539519,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 323711500
+    },
+    {
+      "id": "q_06e8d7da339d",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-02",
+      "question": "Tuần trước doanh thu bình quân mỗi đơn là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 72137,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 95581200
+    },
+    {
+      "id": "q_0711d68fb12f",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "trong các tháng 11/2025, 12/2025 và 1/2026, cửa hàng có dthu cao nhất vào tháng nào",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2025-12",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Lẩu Thái tôm cá (nhỏ)"
+    },
+    {
+      "id": "q_076dfb541ac4",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "tháng 2/2025 dthu hàng hông kê đơn là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 255203400,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 265626300
+    },
+    {
+      "id": "q_0a0038f69d4e",
+      "business_id": "biz_103",
+      "as_of_date": "2026-07-09",
+      "question": "Từ tháng 8/2025 tới tháng 10/2025, tháng nào cửa hàng bán được nhiều tiền nhất?",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2025-10",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Dầu ăn Simply 2L"
+    },
+    {
+      "id": "q_0a6d039818f6",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "tính theo giá vốn, tiền hàng nằm trong kho vào cuối ngày 14/09/2026 là bao nhieeu",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 24534359,
+      "gold_alias": [],
+      "pred_type": "unanswerable",
+      "pred_answer": null
+    },
+    {
+      "id": "q_0c4f869d0e49",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "thang 11/2025 nha thuoc ban thuoc ke don dc bao nhieu tien",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5560800,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 202163300
+    },
+    {
+      "id": "q_0cbadf876dcd",
+      "business_id": "biz_111",
+      "as_of_date": "2025-06-14",
+      "question": "Hôm qua bán được bao nhiêu ly?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 201,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 225
+    },
+    {
+      "id": "q_0d3d69f04d88",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "Tháng 7/2025 dthu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 114261,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 311475600
+    },
+    {
+      "id": "q_0f6f50127e77",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "Top 3 khách hàng có công nợ lớn nhất đến hết ngày 28/07/2026 và số nợ của từng người?",
+      "status": "WRONG_VALUE",
+      "gold_type": "table",
+      "gold_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Lâm Bảo Ngọc",
+            632000
+          ],
+          [
+            "Nghiêm Duy Linh",
+            620000
+          ],
+          [
+            "Lương Huy Quang",
+            360500
+          ]
+        ]
+      },
+      "gold_alias": [
+        [
+          "KH0027"
+        ],
+        [
+          "KH0097"
+        ],
+        [
+          "KH0112"
+        ]
+      ],
+      "pred_type": "table",
+      "pred_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Diệp Trang An",
+            1946000
+          ],
+          [
+            "Phạm Loan Mai",
+            1095000
+          ],
+          [
+            "Lâm Bảo Ngọc",
+            632000
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q_0f7a713a9a4e",
+      "business_id": "biz_117",
+      "as_of_date": "2026-05-20",
+      "question": "Cho hỏi trong tháng 1 năm 2026, số đơn có doanh thu ≥ 580.000 đồng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 509,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1269970000
+    },
+    {
+      "id": "q_10c18d8f615f",
+      "business_id": "biz_122",
+      "as_of_date": "2025-02-14",
+      "question": "doanh thu từ đầu tháng này đến hết hnay hơn hay kém cùng kỳ tháng trc nhiêu phần trăm",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 8.87,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -86.71
+    },
+    {
+      "id": "q_110238617caa",
+      "business_id": "biz_130",
+      "as_of_date": "2025-08-20",
+      "question": "từ đầu tháng này đến hết bữa nay, dthu hown hay kém cungf kỳ th trước mấy %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -0.8,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 797379500
+    },
+    {
+      "id": "q_116e55aef197",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Doanh thu từ khách nhóm thân thiết tháng 3/2025 là bao nhiêu vậy?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 46304000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 4973000
+    },
+    {
+      "id": "q_117dc29c5798",
+      "business_id": "biz_123",
+      "as_of_date": "2026-04-09",
+      "question": "so bill hnay la bnhiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 54,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 7477800
+    },
+    {
+      "id": "q_12bcf28ac9f0",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "nhan vien Bui Dung Lan thang 1/2026 ban duoc tong cong bao nhieu tien ha",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 66148900,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 206997300
+    },
+    {
+      "id": "q_1360a4b30c2c",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Tháng 6/2025 có bao nhiêu đơn hàng có dthu từ 270.000 đồng trở lên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 288,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 40
+    },
+    {
+      "id": "q_1367a63a409f",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-18",
+      "question": "tinh tu ngay 1/1 den het hom nay, doanh thu nam nay la bao nhieu do",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2086001100,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 40055200
+    },
+    {
+      "id": "q_13db1a0a7ea9",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "Liệt kê 3 khách chi tiêu nhiều nhất trong tháng 6 năm 2025.",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Thân Cường Bình",
+        "Dương Duy Hồng",
+        "Bùi Ngân Hồng"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 266080100
+    },
+    {
+      "id": "q_152cebecb4df",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Tháng 1/2025 doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 72270,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 201634000
+    },
+    {
+      "id": "q_158b3b55e722",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "tháng 10/2025 lời gộp của cửa hàng là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 38623432,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 265861700
+    },
+    {
+      "id": "q_16f9cc98ab35",
+      "business_id": "biz_103",
+      "as_of_date": "2025-12-12",
+      "question": "so vs cùng kỳ tháng trước, doanh thu từ đầu tháng này đến hết bữa nay tăng hay giảm nhiêu % hả",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -0.7,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -86.1
+    },
+    {
+      "id": "q_179b70dee72f",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-24",
+      "question": "Cho mình hỏi tháng 12/2025 có bao nhiêu ngày đạt doanh thu từ 12.000.000 đồng trở lên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 14,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1
+    },
+    {
+      "id": "q_1969df5e8f80",
+      "business_id": "biz_123",
+      "as_of_date": "2025-04-13",
+      "question": "Doanh thu từ đầu năm tới hết hnay là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 723839400,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 108414900
+    },
+    {
+      "id": "q_19bb6774e6b7",
+      "business_id": "biz_118",
+      "as_of_date": "2025-10-08",
+      "question": "e dthu tu dau thang nay den het hnay hon hay kem cung ky thang trc bn phan tram",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -17.39,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -72.79
+    },
+    {
+      "id": "q_1a26a64abb5c",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "Doanh thu tháng 8/2026 so với tháng 8/2025 tăng hay giảm bao nhiêu %?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 8.2,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 2.49
+    },
+    {
+      "id": "q_1a79715010d5",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "trong thang nay, so ly size m ban dc la bao nhieu, tinh moi loai do uong",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2435,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 92642500
+    },
+    {
+      "id": "q_1a8f8da9b500",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "liet ke 5 khach chi tieu nhiu nhat trong thang 10 nam 2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Đàm Long Dũng",
+        "Nguyễn Quang Dũng",
+        "Kiều Thắng Hằng",
+        "Vương Huy Giang",
+        "Trần Bảo Đức"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 195454000
+    },
+    {
+      "id": "q_1b0a47e42b97",
+      "business_id": "biz_124",
+      "as_of_date": "2026-02-11",
+      "question": "Cho mình hỏi so với cùng kỳ tháng trước, doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiêu %?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 7.35,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -85.46
+    },
+    {
+      "id": "q_1b119bdd5d28",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "cho hoi trong cac thang 7/2025, 8/2025 va 9/2025, cua hang co doanh thu cao nhat vao thang nao",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2025-08",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Dầu ăn Tường An 1L"
+    },
+    {
+      "id": "q_1c4309a2b495",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "tru thuoc ke don ra, thang nay cac mat hang con lai ban dc bnhiu tien",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 124433900,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 129649500
+    },
+    {
+      "id": "q_1ccb81c372d3",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "tháng 8/2025 có nhiêu khách mua tuwf 12 đơn trở leen",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 69,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 273505000
+    },
+    {
+      "id": "q_1fa63c38c946",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "Liệt kê 3 khách chi tiêu nhiều nhất trong tháng 5 năm 2026.",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Ngô Minh Dũng",
+        "Lâm Đức Quân",
+        "Thân Thắng Phương"
+      ],
+      "gold_alias": [
+        [
+          "KH0137"
+        ],
+        [
+          "KH0199"
+        ],
+        [
+          "KH0178"
+        ]
+      ],
+      "pred_type": "number",
+      "pred_answer": 1134206500
+    },
+    {
+      "id": "q_2061ad0e2567",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "e thang 10/2025 thu hoi dc bn tien cong no tu khach mua chiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 3886666,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 767334
+    },
+    {
+      "id": "q_2073441b0705",
+      "business_id": "biz_117",
+      "as_of_date": "2026-05-20",
+      "question": "tháng 1/2025 có mấy đơn có dthu từ 560.000 đồng trowr leen",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 342,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 54
+    },
+    {
+      "id": "q_2087fd52f66d",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "Trong tháng này, số ly size L bán được là bao nhiêu, tính mọi loại đồ uống?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2535,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 113453000
+    },
+    {
+      "id": "q_21a7c98568e0",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "Từ tháng 10/2025 tới tháng 12/2025, tháng nào cửa hàng bán đc nhiều tiền nhất?",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2025-10",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Lẩu Thái tôm cá (nhỏ)"
+    },
+    {
+      "id": "q_21e3d299c23d",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "doanh thu thang 3/2025 tang hay giam bao nhieu % so vs th truoc",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 20.0,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 259248000
+    },
+    {
+      "id": "q_2225d390b8bb",
+      "business_id": "biz_117",
+      "as_of_date": "2025-08-10",
+      "question": "3 khách hàng có tổng tiền mua cao nhất tuần rồi là ai nhỉ?",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Kiều Bảo Khoa",
+        "Huỳnh Phúc Huy",
+        "Phan Hạnh Khoa"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 394535200
+    },
+    {
+      "id": "q_226862074fe9",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "Trong tháng 3/2025, nhóm vitamin khoáng chất đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 22.38,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 56088100
+    },
+    {
+      "id": "q_229c79268628",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "trong thang 3 nam 2026, so ngay co dthu ≥ 53.000.000 dong la bn",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1380462500
+    },
+    {
+      "id": "q_229f2e23c3c6",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "lay so nhap tru so ban cua salonpas cao dan hop 24 goi x 10 mieng trong thang 1/2026 thi dc bnhiu goi",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 10,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 470
+    },
+    {
+      "id": "q_22a623d3df73",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "thang 3/2026 ban hang khong can don bac si duoc bao nhieu tien z",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 252133800,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 259652600
+    },
+    {
+      "id": "q_230029bec0c1",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "tháng 8/2025 doanh thu bình quân mỗi bill là bnhiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 69726,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 235884000
+    },
+    {
+      "id": "q_2306395cb34a",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "bn khach mua it nhat 14 don trong thang 12 nam 2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "unanswerable",
+      "gold_answer": null,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 0
+    },
+    {
+      "id": "q_235a381439c8",
+      "business_id": "biz_124",
+      "as_of_date": "2026-02-01",
+      "question": "tinh den het ngay 01/02/2026, cac don dat da hon 7 ngay ma khach chua tra het con no bn tien",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2744100,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 4590267
+    },
+    {
+      "id": "q_237a88f0c7e3",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "So doanh thu các đơn trả bằng COD với doanh thu các đơn trả bằng tiền mặt tháng này: mỗi bên bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "list",
+      "gold_answer": [
+        21961500,
+        204504500
+      ],
+      "gold_alias": [],
+      "pred_type": "list",
+      "pred_answer": [
+        16110500,
+        204504500
+      ]
+    },
+    {
+      "id": "q_2592e9dbbf13",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "trong tháng 3/2026, nhóm thực phẩm chức năng đóng góp bn % doanh thu cả cửa hàng đó",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 23.02,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 59764900
+    },
+    {
+      "id": "q_2646a315a83f",
+      "business_id": "biz_118",
+      "as_of_date": "2026-08-09",
+      "question": "Cho mình hỏi 7 ngày gần nhất cửa hàng bán ra tổng cộng mấy m3?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 121,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1374
+    },
+    {
+      "id": "q_2673cb45d798",
+      "business_id": "biz_110",
+      "as_of_date": "2026-05-03",
+      "question": "hnay cửa hangf có nhiêu ddown",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 50,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 3613500
+    },
+    {
+      "id": "q_268de5b6b5b4",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "tháng 5/2025 top 5 hàng hot nhất là gì",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Bia Tiger lon",
+        "Bia Sài Gòn Special lon",
+        "Coca-Cola lon",
+        "Rau muống xào tỏi",
+        "Bia Heineken lon"
+      ],
+      "gold_alias": [
+        [
+          "SP0002"
+        ],
+        [
+          "SP0006"
+        ],
+        [
+          "SP0010"
+        ],
+        [
+          "SP0001"
+        ],
+        [
+          "SP0022"
+        ]
+      ],
+      "pred_type": "number",
+      "pred_answer": 1027854000
+    },
+    {
+      "id": "q_270c4da7ec27",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "Liệt kê 3 khách chi tiêu nhiều nhất trong tháng 2 năm 2026.",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Tạ Phúc Đức",
+        "Hồ Long Duy",
+        "Lý Châu Bảo"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 1069913200
+    },
+    {
+      "id": "q_27eebcccdf1f",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "coi gium dthu thang 6/2026 tang hay giam bao nhieu % so vs th truoc",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -9.65,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1510997000
+    },
+    {
+      "id": "q_28ce28381db2",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "trong các tháng 11/2025, 12/2025 và 1/2026, cửa hàng có dthu cao nhất vào tháng nào",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2025-12",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Costar Omega 3 1000mg lọ 100 viên"
+    },
+    {
+      "id": "q_29503ba420d0",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "tháng 5/2026 dthu hàng hok kê đơn là bn ta",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 130289800,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 134143300
+    },
+    {
+      "id": "q_2b300a0c0e75",
+      "business_id": "biz_128",
+      "as_of_date": "2026-09-07",
+      "question": "5 best seller thang 2/2026 la nhung mat hang nao",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Bia Tiger lon",
+        "Bia Sài Gòn Special lon",
+        "Rau muống xào tỏi",
+        "Bia Tiger Bạc lon",
+        "Cánh gà chiên nước mắm"
+      ],
+      "gold_alias": [
+        [
+          "SP0002"
+        ],
+        [
+          "SP0006"
+        ],
+        [
+          "SP0001",
+          "Rau muong xao toi"
+        ],
+        [
+          "SP0014",
+          "Bia Tiger Bac lon"
+        ],
+        [
+          "SP0003"
+        ]
+      ],
+      "pred_type": "string",
+      "pred_answer": "Bia Tiger lon"
+    },
+    {
+      "id": "q_2b36065a8adc",
+      "business_id": "biz_103",
+      "as_of_date": "2025-09-27",
+      "question": "So với cùng kỳ tháng trước, dthu từ đầu tháng này đến hết hnay tăng hay giảm bao nhiêu %",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 0.92,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -86.18
+    },
+    {
+      "id": "q_2be345d37d89",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "ê dthu tháng 2/2025 hơn hay kém th trước bn %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -8.51,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 265626300
+    },
+    {
+      "id": "q_2ca8fd946a09",
+      "business_id": "biz_130",
+      "as_of_date": "2026-05-21",
+      "question": "doanh thu từ đầu năm tới heets hnay là bao nhiêu nhỉ",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5888993000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 954398500
+    },
+    {
+      "id": "q_2dda154fcb5a",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "tinh theo gia von, tien hang nam trong kho vao cuoi ngay 12/06/2026 la bao nhieu ha",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 140729655,
+      "gold_alias": [],
+      "pred_type": "unanswerable",
+      "pred_answer": null
+    },
+    {
+      "id": "q_2ea34572153a",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-05",
+      "question": "Xem giúp 3 khách hàng có tổng tiền mua cao nhất tuần rồi là ai?",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Vương Khoa Quang",
+        "Tô Đức Mai",
+        "Diệp Hiếu Khánh"
+      ],
+      "gold_alias": [
+        [
+          "KH0192"
+        ],
+        [
+          "KH0171"
+        ],
+        [
+          "KH0022"
+        ]
+      ],
+      "pred_type": "number",
+      "pred_answer": 41233800
+    },
+    {
+      "id": "q_2f3f5b43bb5d",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "Tỉ lệ dthu thuốc kê đơn trên tổng doanh thu tháng này là bao nhiêu %?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 3.05,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 165966800
+    },
+    {
+      "id": "q_2fd93c950188",
+      "business_id": "biz_122",
+      "as_of_date": "2026-03-21",
+      "question": "Doanh thu từ đầu tháng này đến hết hôm nay hơn hay kém cùng kỳ tháng trước bao nhiêu phần trăm?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -6.77,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -86.21
+    },
+    {
+      "id": "q_301e64ea77a9",
+      "business_id": "biz_122",
+      "as_of_date": "2025-08-31",
+      "question": "doanh thu tu dau thang nay den het hom nay tang hay giam bn % so vs cung ky thang roi",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -10.35,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -89.55
+    },
+    {
+      "id": "q_3020c306a884",
+      "business_id": "biz_117",
+      "as_of_date": "2026-05-20",
+      "question": "Trong tháng 3 năm 2025, số đơn có dthu ≥ 590.000 đồng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 445,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1249409500
+    },
+    {
+      "id": "q_31c024e7b485",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "3 khách hàng có tổng tiền mua cao nhất tháng 3/2026 là ai?",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Tăng Lan Hạnh",
+        "Đoàn Cường Thắng",
+        "Hứa Bảo Hùng"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 1677825700
+    },
+    {
+      "id": "q_31e60bdd4d2f",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "Cho hỏi tháng này, doanh thu các đơn bán qua điện thoại là bao nhiêu, doanh thu các đơn bán tại quầy là bao nhiêu?",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        1634900,
+        33118400
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 33118400
+    },
+    {
+      "id": "q_327ffb3f517d",
+      "business_id": "biz_103",
+      "as_of_date": "2025-06-12",
+      "question": "Liệt kê 3 khách chi tiêu nhiều nhất tuần rồi.",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Đỗ Duy Khánh",
+        "Tô Phương Hương",
+        "Ngô Bảo Nam"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 34548600
+    },
+    {
+      "id": "q_32f8d2aac7f9",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "thang 3/2026 co may mat hang dc mua o 84 don khac nhau tro len do",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 14,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 245226200
+    },
+    {
+      "id": "q_337bbe4c8725",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "cho hoi so vs th truoc do, dthu thang 3/2025 tang hay giam may %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -19.67,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 287270000
+    },
+    {
+      "id": "q_3391a2ab7a86",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "cho toi biet dthu cac don tra bang tien tuoi thang nay",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 204504500,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 471156000
+    },
+    {
+      "id": "q_33dcc7d5b828",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "dthu thuoc ke don thang 9/2025 bang bn % tong doanh thu",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 2.78,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 143519000
+    },
+    {
+      "id": "q_348e083e71aa",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Doanh thu từ khách nhóm thân thiết tháng 4/2026 là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 50712000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 8175000
+    },
+    {
+      "id": "q_35835bfa23d1",
+      "business_id": "biz_122",
+      "as_of_date": "2026-07-17",
+      "question": "Đếm số ngày trong tháng 3 năm 2026 mà doanh thu cả ngày từ 7.900.000 đồng trở lên.",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 15,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 264400000
+    },
+    {
+      "id": "q_35983db97b94",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "Doanh thu tháng 4 năm 2026 tăng trưởng bao nhiêu % so với tháng 4 năm 2025?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -5.83,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -3.77
+    },
+    {
+      "id": "q_362713b839b7",
+      "business_id": "biz_103",
+      "as_of_date": "2026-05-11",
+      "question": "doanh thu tu dau nam toi het hom nay la bao nhieu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 862456900,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 102320600
+    },
+    {
+      "id": "q_36cda8515d30",
+      "business_id": "biz_117",
+      "as_of_date": "2025-08-05",
+      "question": "tuần trc doanh thu bình quân mỗi đơn hàng là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1529206,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 394535200
+    },
+    {
+      "id": "q_36d4c28e5079",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "so vs th truoc do, dthu thang 1/2026 tang hay giam may phan tram",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 0.14,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 198041000
+    },
+    {
+      "id": "q_37177a05844b",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "5 khách hàng có tổng tiền mua cao nhất tháng 9/2025 là ai?",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Thân Anh An",
+        "Tăng Đức Hải",
+        "Lý Khánh Đức",
+        "Bùi Thanh Duy",
+        "Đào Ngọc Lan"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 193201000
+    },
+    {
+      "id": "q_37c963b963ef",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "dthu các đơn trả bằng chuyển khoản tháng 9/2025 là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 92383000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 16277000
+    },
+    {
+      "id": "q_39698eb3a76b",
+      "business_id": "biz_122",
+      "as_of_date": "2026-07-17",
+      "question": "Tháng 1/2025 có bao nhiêu ngày đạt dthu từ 8.600.000 đồng trở lên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 7,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 2
+    },
+    {
+      "id": "q_39769b4c6a4f",
+      "business_id": "biz_118",
+      "as_of_date": "2025-06-21",
+      "question": "Cho tôi biết doanh thu 7 ngày gần nhất.",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 367415400,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 33632100
+    },
+    {
+      "id": "q_3a58e6f26cc8",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "dem so mat hang co mat o ≥ 112 don khac nhau trong thang 10/2025",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 265861700
+    },
+    {
+      "id": "q_3a6fd46da72a",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "check gium thang 10/2025, dthu cac don tra bang chuyen khoan va cac don tra bang tm moi loai bnhiu",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        437360000,
+        459715500
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 437360000
+    },
+    {
+      "id": "q_3cbc76c5b4a8",
+      "business_id": "biz_103",
+      "as_of_date": "2025-09-22",
+      "question": "So với cùng kỳ tháng trước, dthu từ đầu tháng này đến hết hnay tăng hay giảm bao nhiêu %",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 6.1,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -87.03
+    },
+    {
+      "id": "q_3cc5b189bbd9",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "Trong tháng 5/2026, nhóm xi măng đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 7.59,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 106735000
+    },
+    {
+      "id": "q_3d58d52f4443",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "coi gium liet ke 5 mat hang chay nhat thang 10/2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Berberin 100mg Mekophar chai 100 viên",
+        "Eugica hộp 10 vỉ x 10 viên nang",
+        "Panadol 500mg hộp 10 vỉ x 12 viên",
+        "Oresol 245 DHG hộp 20 gói",
+        "Salonpas cao dán hộp 24 gói x 10 miếng"
+      ],
+      "gold_alias": [
+        [
+          "SP0006",
+          "Berberin 100mg Mekophar chai 100 vien"
+        ],
+        [
+          "SP0022"
+        ],
+        [
+          "SP0003"
+        ],
+        [
+          "SP0007"
+        ],
+        [
+          "SP0009"
+        ]
+      ],
+      "pred_type": "number",
+      "pred_answer": 135485000
+    },
+    {
+      "id": "q_3d7beff53344",
+      "business_id": "biz_121",
+      "as_of_date": "2026-04-13",
+      "question": "dthu từ đầu năm tới hết hnay là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 893622300,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 116053200
+    },
+    {
+      "id": "q_3db974fe3641",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "liet ke 3 khach no nhieu nhat tinh den het ngay 28/06/2026, kem so tien con no",
+      "status": "WRONG_VALUE",
+      "gold_type": "table",
+      "gold_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Hoàng Ngọc Ngọc",
+            435734
+          ],
+          [
+            "Lê Giang Hiếu",
+            97000
+          ],
+          [
+            "Đặng Hải Đức",
+            90800
+          ]
+        ]
+      },
+      "gold_alias": [
+        [
+          "KH0108"
+        ],
+        [
+          "KH0151"
+        ],
+        [
+          "KH0031"
+        ]
+      ],
+      "pred_type": "table",
+      "pred_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Hoàng Ngọc Ngọc",
+            435734
+          ],
+          [
+            "Đàm An Đạt",
+            157000
+          ],
+          [
+            "Lê Giang Hiếu",
+            97000
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q_4028a7af692a",
+      "business_id": "biz_116",
+      "as_of_date": "2025-10-18",
+      "question": "Cộng mọi mặt hàng tính theo bình, hôm qua bán ra đc mấy bình?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 13,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 31171800
+    },
+    {
+      "id": "q_402ecd8d8980",
+      "business_id": "biz_122",
+      "as_of_date": "2026-07-17",
+      "question": "Đếm số ngày trong tháng 6 năm 2026 mà dthu cả ngày từ 8.600.000 đồng trở lên.",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 14,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 260240000
+    },
+    {
+      "id": "q_40fde817403c",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-26",
+      "question": "7 ngày gần nhất cửa hàng có bnhiu bill",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1023,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 72018500
+    },
+    {
+      "id": "q_411885af7ae3",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "dthu tháng 4/2026 hown hay kém th trước bao nhiêu % vậy",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -10.51,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 309657200
+    },
+    {
+      "id": "q_42aae0334857",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "đếm giúp tôi số mặt hàng ế đến mức trong giai đoạn từ 11/11/2025 đến hết 17/11/2025 không bans dc lần nào",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 2,
+      "gold_alias": [],
+      "pred_type": "list",
+      "pred_answer": [
+        "Sơn Dulux Weathershield Powerflexx 5L",
+        "Bếp gas đôi Rinnai RV-375SW"
+      ]
+    },
+    {
+      "id": "q_42f55486f412",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "Hết ngày 28/06/2026, số hàng còn trong kho đáng bao nhiêu tiền, tính theo giá vốn?",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 103634067,
+      "gold_alias": [],
+      "pred_type": "unanswerable",
+      "pred_answer": null
+    },
+    {
+      "id": "q_43953e1ca6ca",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "Bao nhiêu khách mua ít nhất 11 đơn trong tháng 10 năm 2025?",
+      "status": "WRONG_TYPE",
+      "gold_type": "unanswerable",
+      "gold_answer": null,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 0
+    },
+    {
+      "id": "q_446a146d3418",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "thang 2/2025 co may mat hang dc mua o 61 don khac nhau tro len nhi",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1320253500
+    },
+    {
+      "id": "q_44e61088806a",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "Tháng 3/2026 doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 532062,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1098707000
+    },
+    {
+      "id": "q_451384790b18",
+      "business_id": "biz_121",
+      "as_of_date": "2026-03-30",
+      "question": "dthu từ đầu năm tới hết hnay là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 767998100,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 100573400
+    },
+    {
+      "id": "q_451992e04c6f",
+      "business_id": "biz_115",
+      "as_of_date": "2026-05-16",
+      "question": "Đếm giúp tôi số mặt hàng bán chậm đến mức trong giai đoạn từ 06/05/2025 đến hết 12/05/2025 không bán được lần nào.",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 3,
+      "gold_alias": [],
+      "pred_type": "list",
+      "pred_answer": [
+        "Bồn nước inox Sơn Hà 1000L ngang",
+        "Chống thấm Kova CT-11A tường 20kg",
+        "Máy bơm nước Panasonic GP-129JXK 125W"
+      ]
+    },
+    {
+      "id": "q_4726d037f8a8",
+      "business_id": "biz_117",
+      "as_of_date": "2026-03-20",
+      "question": "doanh thu từ đầu tháng này đến hết bữa nay hơn hay kém cùng kỳ tháng rồi bnhiu %",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 14.4,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -86.25
+    },
+    {
+      "id": "q_48cfe79d54ec",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "Cho tôi doanh thu các đơn bán qua điện thoại và doanh thu các đơn bán qua Zalo OA tháng 7/2025.",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        42523000,
+        49376000
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 49376000
+    },
+    {
+      "id": "q_4afd238d098c",
+      "business_id": "biz_103",
+      "as_of_date": "2026-07-09",
+      "question": "liet ke 5 khach chi tieu nhiu nhat trong thang 9 nam 2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Dương Lan Hồng",
+        "Đỗ Cường Nam",
+        "Phùng Tâm Ngân",
+        "Nghiêm Thu Hoàng",
+        "Huỳnh Thắng Minh"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 158241500
+    },
+    {
+      "id": "q_4bdb1a8972ce",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "check gium thang 11/2025 co bao nhieu ngay dat dthu tu 9.600.000 dong tro len",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 7,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1
+    },
+    {
+      "id": "q_4bf0ba4d3872",
+      "business_id": "biz_103",
+      "as_of_date": "2025-11-06",
+      "question": "Doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiêu phần trăm so với cùng kỳ tháng trước nhỉ?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 9.64,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -79.15
+    },
+    {
+      "id": "q_4c7f65214480",
+      "business_id": "biz_106",
+      "as_of_date": "2026-08-31",
+      "question": "xem giup so voi cung ky th truoc, doanh thu tu dau thang nay den het hom nay tang hay giam bn %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -3.33,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 44623000
+    },
+    {
+      "id": "q_4c974b445a53",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "Tính đến hết ngày 28/07/2026, 5 khách nào đang nợ nhiều nhất, mỗi người còn nợ bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "table",
+      "gold_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Lâm Bảo Ngọc",
+            632000
+          ],
+          [
+            "Nghiêm Duy Linh",
+            620000
+          ],
+          [
+            "Lương Huy Quang",
+            360500
+          ],
+          [
+            "Lương Thanh Hương",
+            230000
+          ],
+          [
+            "Tống Ngọc Trung",
+            168000
+          ]
+        ]
+      },
+      "gold_alias": [
+        [
+          "KH0027"
+        ],
+        [
+          "KH0097"
+        ],
+        [
+          "KH0112"
+        ],
+        [
+          "KH0079"
+        ],
+        [
+          "KH0093"
+        ]
+      ],
+      "pred_type": "table",
+      "pred_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Diệp Trang An",
+            1946000
+          ],
+          [
+            "Phạm Loan Mai",
+            1095000
+          ],
+          [
+            "Lâm Bảo Ngọc",
+            632000
+          ],
+          [
+            "Trịnh Phúc Giang",
+            626500
+          ],
+          [
+            "Nghiêm Duy Linh",
+            620000
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q_4cbb6b73939c",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "trong tong dthu thang 4/2025, doanh thu cac don tra bang ck chiem bnhiu %",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 39.21,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 100
+    },
+    {
+      "id": "q_4cd6d580fd0b",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-24",
+      "question": "Xem giúp trong tháng 5 năm 2025, số đơn có doanh thu ≥ 55.000 đồng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2457,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 342660600
+    },
+    {
+      "id": "q_4d188c72f1f5",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Tháng 3/2026, doanh thu từ khách nhóm thân thiết chiếm bao nhiêu phần trăm tổng doanh thu của cửa hàng?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 15.49,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 14.22
+    },
+    {
+      "id": "q_4d7fc53fcc41",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "tính đến hết ngày 19/08/2026, khách hàng còn nowj cửa hàng tổng cộng bao nhiêu tiền",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1828785,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 2867785
+    },
+    {
+      "id": "q_4f3e9153b2b0",
+      "business_id": "biz_114",
+      "as_of_date": "2025-11-25",
+      "question": "hqua cos tổng cộng nhiêu ddown",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 26,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 39361400
+    },
+    {
+      "id": "q_4f742bfda263",
+      "business_id": "biz_103",
+      "as_of_date": "2025-05-08",
+      "question": "5 khach co tong tien mua cao nhat tuan roi la ai",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Thái Sơn Sơn",
+        "Đỗ Bảo Long",
+        "Đỗ Duy Khánh",
+        "Tống Hùng Minh",
+        "Phan Hải Phúc"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 41312900
+    },
+    {
+      "id": "q_4f9117864544",
+      "business_id": "biz_112",
+      "as_of_date": "2026-04-30",
+      "question": "Cho mình hỏi doanh thu từ đầu năm tới hết hôm nay là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1211884000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 152269000
+    },
+    {
+      "id": "q_5023d3652206",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "trong tháng 7 năm 2026, số đơn có doanh thu ≥ 1.100.000 đồng là bnhiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 250,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1408844000
+    },
+    {
+      "id": "q_5029b166aa34",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "so vs cung thang nam truoc, dthu thang 4 nam 2026 thay doi may %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 2.25,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 280724700
+    },
+    {
+      "id": "q_50d644357434",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "thang 4/2025 nha thuoc ban thuoc ke don duoc bnhiu tien nhi",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 4278000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 142478300
+    },
+    {
+      "id": "q_50e6defb9ba3",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "dthu thang 4/2026 tang hay giam bao nhieu phan tram so voi th truoc",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -0.23,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 280724700
+    },
+    {
+      "id": "q_524271ac2881",
+      "business_id": "biz_103",
+      "as_of_date": "2025-08-12",
+      "question": "e tuan roi dthu binh quan moi don hang la bnhiu ha",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 128885,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 30159200
+    },
+    {
+      "id": "q_526287894668",
+      "business_id": "biz_103",
+      "as_of_date": "2026-07-09",
+      "question": "dthu tháng 3/2026 hơn hay kém th trước bn %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -42.91,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 160685800
+    },
+    {
+      "id": "q_528984a6439d",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "check giùm trung binhf mỗi đơn tháng 4/2025 mang về nhiêu dthu",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 163519,
+      "gold_alias": [],
+      "pred_type": "unanswerable",
+      "pred_answer": null
+    },
+    {
+      "id": "q_5290bf2ca8dd",
+      "business_id": "biz_103",
+      "as_of_date": "2025-12-02",
+      "question": "Tuần trước doanh thu bình quân mỗi đơn hàng là bao nhiêu nhỉ?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 165360,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 46300900
+    },
+    {
+      "id": "q_5412252566a0",
+      "business_id": "biz_120",
+      "as_of_date": "2025-10-24",
+      "question": "Số gói bán được hqua là bao nhiêu, cộng mọi mặt hàng tính theo gói?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 327,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 8807500
+    },
+    {
+      "id": "q_54b11019393a",
+      "business_id": "biz_118",
+      "as_of_date": "2025-09-16",
+      "question": "so vs cùng kỳ th trước, dthu từ đầu tháng này đến hết hôm nay tăng hay giảm bnhiu %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 9.04,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 100732400
+    },
+    {
+      "id": "q_54ee9f17dc31",
+      "business_id": "biz_106",
+      "as_of_date": "2025-08-20",
+      "question": "so vs cùng kỳ tháng rồi, dthu từ đầu tháng này đến hết hnay tăng hay giảm bn %",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 3.69,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -88.05
+    },
+    {
+      "id": "q_55ea8ba11491",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "Doanh thu tháng 3 năm 2026 tăng trưởng bao nhiêu % so với tháng 3 năm 2025?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -11.87,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 1.51
+    },
+    {
+      "id": "q_56927a1f062a",
+      "business_id": "biz_111",
+      "as_of_date": "2026-03-05",
+      "question": "cong moi mat hang tinh theo ly, hom qua ban ra dc may ly",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 173,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 186
+    },
+    {
+      "id": "q_569bfbc0514b",
+      "business_id": "biz_122",
+      "as_of_date": "2025-11-04",
+      "question": "Doanh thu từ đầu tháng này đến hết hôm nay hơn hay kém cùng kỳ tháng trước bao nhiêu phần trăm?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -26.54,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -100
+    },
+    {
+      "id": "q_57cf71f4503a",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "Tháng này nhà thuốc bán hàng không kê đơn đc bao nhiêu tiền",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 179238000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 184386400
+    },
+    {
+      "id": "q_5811b4c066de",
+      "business_id": "biz_117",
+      "as_of_date": "2025-04-10",
+      "question": "so vs cùng kỳ th trước, doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiu % hả",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -14.26,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 51284900
+    },
+    {
+      "id": "q_598d73130f27",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "e trong 3 thang tu thang 9/2025 den thang 11/2025, thang nao co dthu cao nhat",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2025-10",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Dầu ăn Tường An 1L"
+    },
+    {
+      "id": "q_59ababa26d62",
+      "business_id": "biz_106",
+      "as_of_date": "2025-04-11",
+      "question": "Đến hết ngày 11/04/2025, số tiền khách còn thiếu là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1426171,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 574270000
+    },
+    {
+      "id": "q_5a2a8754491f",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "tháng 5/2025 có mấy mặt hàng đc mua ở 78 đơn khác nhau trở lên z",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 6,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1535787700
+    },
+    {
+      "id": "q_5b1fc63aef42",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "co may ngay trong thang 2/2026 cua hang ban duoc tu 15.000.000 dong tro len",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 8,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 376353600
+    },
+    {
+      "id": "q_5c01ed371d11",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "cho hoi thang 11/2025 nha thuoc ban hang k ke don dc bao nhieu tien",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 307821900,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 316800300
+    },
+    {
+      "id": "q_5d9f6550bb9c",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "tháng 12/2025 top 5 hàng chạy nhất là chi",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Mì Hảo Hảo tôm chua cay",
+        "Snack Oishi tôm cay 40g",
+        "Trứng gà so",
+        "Mì Omachi sườn hầm",
+        "Snack Lay's vị tự nhiên 56g"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 274050700
+    },
+    {
+      "id": "q_5e0ac8c57127",
+      "business_id": "biz_122",
+      "as_of_date": "2025-03-09",
+      "question": "dthu tu dau thang nay den het bua nay tang hay giam bn phan tram so voi cung ky thang trc",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -3.76,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -90.84
+    },
+    {
+      "id": "q_5e92228fd206",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "Tháng 6/2025 dthu bình quân mỗi đơn là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 70712,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 194246000
+    },
+    {
+      "id": "q_5f1b604c20ad",
+      "business_id": "biz_102",
+      "as_of_date": "2025-06-26",
+      "question": "check giùm bữa qua cuwar hàng có bao nhieeu bill",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 46,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 8646700
+    },
+    {
+      "id": "q_5f5c3b11314d",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "Cho hỏi doanh thu dịp Tết năm nay thay đổi bao nhiêu % so với dịp Tết năm ngoái?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -14.45,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 111823100
+    },
+    {
+      "id": "q_5fac35e0184d",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "e thang 1/2026 co may mat hang duoc mua o 246 don khac nhau tro len",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 329254000
+    },
+    {
+      "id": "q_608f1af2e580",
+      "business_id": "biz_103",
+      "as_of_date": "2026-04-26",
+      "question": "e tinh tu ngay 1/1 den het hnay, dthu nam nay la bn",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 775863100,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 23867800
+    },
+    {
+      "id": "q_61c8691e0eae",
+      "business_id": "biz_109",
+      "as_of_date": "2025-06-21",
+      "question": "tinh tu dau nam den het hom nay, cua hang da co total bao nhieu order",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 10518,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1737671000
+    },
+    {
+      "id": "q_6294954a0461",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "Tháng 12/2025 doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 110484,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 313773700
+    },
+    {
+      "id": "q_646d811fe987",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Cho mình doanh thu các đơn trả bằng tiền mặt và doanh thu các đơn trả bằng COD tháng 4/2026.",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        102884000,
+        11796500
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 19126500
+    },
+    {
+      "id": "q_64d1626a754c",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "het ngay 25/05/2026, so hang con trong kho dang bao nhieu tien, tinh theo gia von do",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 134198773,
+      "gold_alias": [],
+      "pred_type": "unanswerable",
+      "pred_answer": null
+    },
+    {
+      "id": "q_657bc80121e8",
+      "business_id": "biz_109",
+      "as_of_date": "2025-08-17",
+      "question": "So với cùng kỳ tháng trước, doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiêu %?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 8.99,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -88.42
+    },
+    {
+      "id": "q_65fe3145f067",
+      "business_id": "biz_117",
+      "as_of_date": "2025-02-06",
+      "question": "co bao nhieu mat hang van dang ban ma trong 7 ngay gan nhat ko ban ra duoc cai nao",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 102513100
+    },
+    {
+      "id": "q_660dd2abb279",
+      "business_id": "biz_103",
+      "as_of_date": "2026-07-09",
+      "question": "ê tháng 10/2025 có nhiêu khách mua từ 4 đơn trở lên",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 73,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 173866200
+    },
+    {
+      "id": "q_68baa146bf59",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Tỉ lệ doanh thu thuốc kê đơn trên tổng doanh thu tháng 5/2025 là bao nhiêu %?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 2.85,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 346554700
+    },
+    {
+      "id": "q_6a561b61690c",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "cho hoi liet ke 5 khach chi tieu nhiu nhat trong thang 8 nam 2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Đoàn Sơn Sơn",
+        "Vương Duy Quang",
+        "Kiều Ngọc Hoàng",
+        "Thân Lan Nam",
+        "Lý Mai Hồng"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 1442924600
+    },
+    {
+      "id": "q_6b4754b099c6",
+      "business_id": "biz_112",
+      "as_of_date": "2025-08-11",
+      "question": "xem giúp dthu từ đầu tháng này đến hết hnay hơn hay kém cùng kỳ tháng rồi bn % vậy",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 11.56,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -96.83
+    },
+    {
+      "id": "q_6ca243e0583b",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "Tháng 5/2026 dthu bình quân mỗi đơn là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 70392,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 192664000
+    },
+    {
+      "id": "q_6cb66fd47ab6",
+      "business_id": "biz_127",
+      "as_of_date": "2025-12-28",
+      "question": "cộng mọi mặt hàng tính theo lon, bữa qua bán ra được mấy lon",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 140,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 669
+    },
+    {
+      "id": "q_6d07710033dd",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "e thang 6/2026 co bao nhieu bill co dthu tu 1.000.000 dong tro len",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 274,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 195029500
+    },
+    {
+      "id": "q_6d251adc4eab",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "Doanh thu tháng 8/2026 so với tháng 8/2025 tăng hay giảm bao nhiêu %?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 15.31,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -3.33
+    },
+    {
+      "id": "q_6dcc411a2f2c",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "Giúp mình tính theo giá vốn, tiền hàng nằm trong kho vào cuối ngày 05/08/2026 là bao nhiêu?",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 70371249,
+      "gold_alias": [],
+      "pred_type": "unanswerable",
+      "pred_answer": null
+    },
+    {
+      "id": "q_6df1acd987f0",
+      "business_id": "biz_127",
+      "as_of_date": "2025-12-02",
+      "question": "Hôm qua tổng cộng bán được bao nhiêu nồi?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 25,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 32161500
+    },
+    {
+      "id": "q_6e3896c1d2db",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "Trừ thuốc kê đơn ra, tháng 8/2026 các mặt hàng còn lại bán được bao nhiêu tiền?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 269053100,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 275675300
+    },
+    {
+      "id": "q_6e46ccad22e3",
+      "business_id": "biz_103",
+      "as_of_date": "2025-09-07",
+      "question": "coi giùm tuần rồi top 3 hàng hot nhất là j",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Mì Hảo Hảo tôm chua cay",
+        "Gạo ST25",
+        "Nước suối Aquafina 500ml"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 42981400
+    },
+    {
+      "id": "q_70212b454018",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "tháng 8/2025 dthu từ khách nhóm sỉ dc nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 40358700,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 4680300
+    },
+    {
+      "id": "q_71274e80eec1",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Trong tháng 5/2026, số ly size L bán đc là bao nhiêu, tính mọi loại đồ uống?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1985,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 88525500
+    },
+    {
+      "id": "q_717e5f91d40b",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "Cho mình hỏi trong tháng 1/2026, nhóm ống nước đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 9.01,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 141067000
+    },
+    {
+      "id": "q_720eeed8ec53",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "thang nay, dthu tu khach nhom than thiet chiem bao nhiu % tong doanh thu cua cua hang vay",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 19.59,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 18.18
+    },
+    {
+      "id": "q_72d7deb192d7",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "cho hoi thang 5/2026, dthu cac don tra bang chuyen khoan la bao nhieu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 107616500,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 20922000
+    },
+    {
+      "id": "q_732f3ccfba93",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "tháng 8/2025 thu được bao nhiêu tiền từ các thuốc phải kê đơn",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5756000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 213282700
+    },
+    {
+      "id": "q_73d56125b82b",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "Tháng 7/2025 thu hồi được bao nhiêu tiền công nợ từ khách mua chịu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1935887,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 2295268
+    },
+    {
+      "id": "q_73f634377787",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-24",
+      "question": "đếm số ngày trong tháng 10 năm 2025 mà dthu cả ngày từ 13.000.000 đồng trở lên",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 7,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 379300800
+    },
+    {
+      "id": "q_749c22cb85cd",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "Trong tháng 1/2026, số ly size M bán được là bao nhiêu, tính mọi loại đồ uống?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 3000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 115116000
+    },
+    {
+      "id": "q_750852ede10a",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "Cho tôi biết dthu thuốc kê đơn tháng 3/2025.",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 9432000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 325164000
+    },
+    {
+      "id": "q_7550b258098d",
+      "business_id": "biz_118",
+      "as_of_date": "2026-06-02",
+      "question": "Tính từ ngày 1/1 đến hết hôm nay, dthu năm nay là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 6976142000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 0
+    },
+    {
+      "id": "q_755195b2eb71",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "ti le doanh thu thuoc ke don tren tong doanh thu thang 1/2026 la bao nhieu %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 2.75,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 350665900
+    },
+    {
+      "id": "q_77b5d0d4b2df",
+      "business_id": "biz_112",
+      "as_of_date": "2026-04-22",
+      "question": "Cho mình biết doanh thu 7 ngày gần nhất.",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 74104500,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 12213000
+    },
+    {
+      "id": "q_7931f49fa47c",
+      "business_id": "biz_115",
+      "as_of_date": "2025-03-11",
+      "question": "hqua tổng cộng bán được bao nhiêu cái",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 23,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 171
+    },
+    {
+      "id": "q_796100b5a70b",
+      "business_id": "biz_115",
+      "as_of_date": "2026-05-16",
+      "question": "liệt kê 5 mặt hangf chạy nhất thangs 2/2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Gạch ống 8x8x18 Tuynel",
+        "Ngói Đồng Nai 22 viên/m2",
+        "Xi măng Hà Tiên PCB40 bao 50kg",
+        "Xi măng INSEE Power-S bao 50kg",
+        "Thép Pomina D10 cây 11.7m"
+      ],
+      "gold_alias": [
+        [
+          "SP0009"
+        ],
+        [
+          "SP0047"
+        ],
+        [
+          "SP0001"
+        ],
+        [
+          "SP0002"
+        ],
+        [
+          "SP0012"
+        ]
+      ],
+      "pred_type": "number",
+      "pred_answer": 1039387700
+    },
+    {
+      "id": "q_7b7e9b737498",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "Trong tháng 8/2025, nhóm sơn đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 17.62,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 240644000
+    },
+    {
+      "id": "q_7cc0801e4226",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-24",
+      "question": "Tháng 6/2025 có bao nhiêu đơn hàng có doanh thu từ 130.000 đồng trở lên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 459,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 60
+    },
+    {
+      "id": "q_7dae0d81eb69",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Theo tồn kho ngày 25/05/2026, có mấy lô hàng còn tồn sẽ hết hạn từ nay đến hết ngày 22/09/2026?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 0
+    },
+    {
+      "id": "q_7dd9d37258ce",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "Cho tôi doanh thu các đơn trả bằng ví điện tử và doanh thu các đơn trả bằng COD tháng 8/2025.",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        107059000,
+        52912000
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 107059000
+    },
+    {
+      "id": "q_7ebd4d633970",
+      "business_id": "biz_122",
+      "as_of_date": "2026-03-31",
+      "question": "So với cùng kỳ tháng trước, doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiêu %?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 4.8,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -87.1
+    },
+    {
+      "id": "q_7f461f7410b6",
+      "business_id": "biz_118",
+      "as_of_date": "2026-08-26",
+      "question": "xem giup co bao nhiu mat hang van dang ban ma trong 7 ngay gan nhat khong ban ra dc cai nao",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 260992700
+    },
+    {
+      "id": "q_7f4fb0a05458",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "Trong tháng 1/2026, nhóm trà đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng vậy?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 19.68,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 64796000
+    },
+    {
+      "id": "q_7f6fd6d714ed",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Doanh thu tháng 2 năm 2026 tăng trưởng bao nhiêu % so với tháng 2 năm 2025?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 30.97,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 1.47
+    },
+    {
+      "id": "q_81cc91f86744",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "xem giúp cho tôi biết lời gộp tháng 9 nawm 2025",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 190133805,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 271124500
+    },
+    {
+      "id": "q_81d6b5a181f4",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "thang nao doanh thu cao nhat trong ba thang 1/2026, 2/2026, 3/2026",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2026-03",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Trà đào cam sả (M)"
+    },
+    {
+      "id": "q_822c779f4e4d",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "Cho hỏi tổng tiền bán các mặt hàng không kê đơn tháng 10/2025 là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 310192800,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 321252600
+    },
+    {
+      "id": "q_823d917dff8b",
+      "business_id": "biz_122",
+      "as_of_date": "2026-07-17",
+      "question": "Từ tháng 4/2025 tới tháng 6/2025, tháng nào cửa hàng bán được nhiều tiền nhất nhỉ?",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2025-05",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Salonpas cao dán hộp 24 gói x 10 miếng"
+    },
+    {
+      "id": "q_82ab0dd948e0",
+      "business_id": "biz_115",
+      "as_of_date": "2026-05-16",
+      "question": "Tháng 12/2025 doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1272114,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1113099800
+    },
+    {
+      "id": "q_838a6f2a3392",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Tháng này thu hồi được bao nhiêu tiền công nợ từ khách mua chịu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1424735,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 2867785
+    },
+    {
+      "id": "q_83b5b109a913",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "Tháng 1/2025 dthu bình quân mỗi đơn là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 113603,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 231295400
+    },
+    {
+      "id": "q_83ddbda300ed",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "Xu hướng doanh thu 3 tháng 9/2025 → 10/2025 → 11/2025: có phải tháng 10/2025 cao hơn tháng 9/2025 và tháng 11/2025 cao hơn tháng 10/2025 ạ?",
+      "status": "WRONG_TYPE",
+      "gold_type": "boolean",
+      "gold_answer": false,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 37374700
+    },
+    {
+      "id": "q_843f0bd18b62",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "dthu thang 7/2025 tang hay giam bao nhieu % so voi th truoc",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 6.22,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 328957800
+    },
+    {
+      "id": "q_85d5016966f2",
+      "business_id": "biz_105",
+      "as_of_date": "2026-03-05",
+      "question": "3 khach co tong tien mua cao nhat tuan nay la ai",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Thái Ngọc Hoàng",
+        "Phan Chi Anh",
+        "Đặng Loan Phong"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 48121300
+    },
+    {
+      "id": "q_8659862171ab",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "xem giúp top 5 khách có công nợ lớn nhất đến hết ngày 14/08/2026 và số nợ của từng người",
+      "status": "WRONG_VALUE",
+      "gold_type": "table",
+      "gold_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Thân Thu Phương",
+            949334
+          ],
+          [
+            "Ngô Anh Phong",
+            415000
+          ],
+          [
+            "Nghiêm Hà Phương",
+            391000
+          ],
+          [
+            "Hứa An Giang",
+            356250
+          ],
+          [
+            "Châu Quân Tâm",
+            241000
+          ]
+        ]
+      },
+      "gold_alias": [
+        [
+          "KH0104"
+        ],
+        [
+          "KH0050"
+        ],
+        [
+          "KH0150"
+        ],
+        [
+          "KH0125"
+        ],
+        [
+          "KH0048"
+        ]
+      ],
+      "pred_type": "table",
+      "pred_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Trương Hoàng An",
+            2711000
+          ],
+          [
+            "Châu Quân Tâm",
+            2196000
+          ],
+          [
+            "Thân Thu Phương",
+            949334
+          ],
+          [
+            "Giang Châu Hoa",
+            559000
+          ],
+          [
+            "Ngô Anh Phong",
+            415000
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q_866bfa9392b7",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "cho hỏi 5 mawtj hangf chạy nhất tháng 12/2025 là những mặt hàng nào",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Panadol 500mg hộp 10 vỉ x 12 viên",
+        "Panadol Extra hộp 15 vỉ x 12 viên",
+        "Khẩu trang y tế 4 lớp Khánh An hộp 50 cái",
+        "Smecta hộp 30 gói",
+        "Hapacol 250 hộp 24 gói"
+      ],
+      "gold_alias": [
+        [
+          "SP0003",
+          "Panadol 500mg hop 10 vi x 12 vien",
+          "Panadol 500 mg hộp 10 vỉ x 12 viên"
+        ],
+        [
+          "SP0001"
+        ],
+        [
+          "SP0011",
+          "Khau trang y te 4 lop Khanh An hop 50 cai"
+        ],
+        [
+          "SP0012"
+        ],
+        [
+          "SP0002"
+        ]
+      ],
+      "pred_type": "number",
+      "pred_answer": 313773700
+    },
+    {
+      "id": "q_8806b5b18ac8",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "Tháng này doanh thu hàng không kê đơn là bao nhiêu vậy?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 61493400,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 63132000
+    },
+    {
+      "id": "q_8837ab1dae97",
+      "business_id": "biz_123",
+      "as_of_date": "2025-08-21",
+      "question": "coi giùm tinhs từ ngày 1/1 đến hết bữa nay, dthu năm nay là nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1626787800,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 15358600
+    },
+    {
+      "id": "q_8848e665f8d1",
+      "business_id": "biz_106",
+      "as_of_date": "2026-03-28",
+      "question": "Tuần trước tổng cộng bán được bao nhiêu ly?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1521,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1714
+    },
+    {
+      "id": "q_88c1a733dfd0",
+      "business_id": "biz_117",
+      "as_of_date": "2026-05-20",
+      "question": "son maxilite trong nha 18L len gia 787.500đ tu ngay 06/04/2025; so 30 ngay ke tu ngay tang gia vs 30 ngay ngay trc, luong ban tinh theo thung tang hay giam bnhiu %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -2.94,
+      "gold_alias": [],
+      "pred_type": "unanswerable",
+      "pred_answer": null
+    },
+    {
+      "id": "q_8923e2fd6815",
+      "business_id": "biz_111",
+      "as_of_date": "2026-07-03",
+      "question": "soos bill hqua là bn",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 98,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 7764300
+    },
+    {
+      "id": "q_8949c93343e6",
+      "business_id": "biz_129",
+      "as_of_date": "2025-02-21",
+      "question": "Số lon bán được hôm qua là bao nhiêu, cộng mọi mặt hàng tính theo lon?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 53,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 37114000
+    },
+    {
+      "id": "q_894f7a3e6389",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "thangs 5/2025 dthu các đơn trả bawngf cod đươc bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 11754500,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 2395000
+    },
+    {
+      "id": "q_8abb824689fc",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-24",
+      "question": "ê trong tháng 2/2025, soos ly size l bán dc là nhiêu, tính mọi loại ddoof uống ta",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2138,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 93235000
+    },
+    {
+      "id": "q_8af586388813",
+      "business_id": "biz_128",
+      "as_of_date": "2026-09-07",
+      "question": "dthu từ khách nhóm thân thiết tháng 6/2026 là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 153509000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 29581800
+    },
+    {
+      "id": "q_8b26c18bfb11",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "đếm số khách đã mua ≥ 4 đơn trong tháng 4/2025",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 72,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1488698100
+    },
+    {
+      "id": "q_8b311dd3e345",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "Tháng 7/2025 tiền bán thuốc kê đơn là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 11812100,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 311475600
+    },
+    {
+      "id": "q_8ba7aa8f4b8e",
+      "business_id": "biz_118",
+      "as_of_date": "2026-05-10",
+      "question": "tính từ ngày 1/1 đến hết hôm nay, doanh thu năm nay là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5958404200,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 44701900
+    },
+    {
+      "id": "q_8c4380293447",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "so vs th truoc do, dthu thang 11/2025 tang hay giam may phan tram",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 0.41,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 286967300
+    },
+    {
+      "id": "q_8c8dbb617ba0",
+      "business_id": "biz_124",
+      "as_of_date": "2025-10-26",
+      "question": "Tính đến hết ngày 26/10/2025, các đơn đặt đã hơn 15 ngày mà khách chưa trả hết còn nợ bao nhiêu tiền?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 346167,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 2295501
+    },
+    {
+      "id": "q_8cdd31591189",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Xu hướng doanh thu 3 tháng 6/2025 → 7/2025 → 8/2025: có phải tháng 7/2025 cao hơn tháng 6/2025 và tháng 8/2025 cao hơn tháng 7/2025 nhỉ?",
+      "status": "WRONG_TYPE",
+      "gold_type": "boolean",
+      "gold_answer": true,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 45889600
+    },
+    {
+      "id": "q_8d1b1ea5a1f7",
+      "business_id": "biz_118",
+      "as_of_date": "2025-08-24",
+      "question": "Cộng mọi mặt hàng tính theo bình, 7 ngày gần nhất bán ra đc mấy bình?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 148,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 315712000
+    },
+    {
+      "id": "q_8d681ea2db80",
+      "business_id": "biz_128",
+      "as_of_date": "2026-09-07",
+      "question": "Doanh thu tháng 4/2026 so với tháng 4/2025 tăng hay giảm bao nhiêu %?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 6.35,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 0.96
+    },
+    {
+      "id": "q_8d6f15428234",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "e liet ke 5 khach chi tieu nhiu nhat trong thang 4 nam 2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Hồ Linh Khoa",
+        "La Chi Hoa",
+        "Lâm Khánh An",
+        "Triệu Bình Khánh",
+        "Chung Nam An"
+      ],
+      "gold_alias": [
+        [
+          "KH0137",
+          "Ho Linh Khoa"
+        ],
+        [
+          "KH0118"
+        ],
+        [
+          "KH0162"
+        ],
+        [
+          "KH0115"
+        ],
+        [
+          "KH0259"
+        ]
+      ],
+      "pred_type": "number",
+      "pred_answer": 142478300
+    },
+    {
+      "id": "q_8dc767d33cd7",
+      "business_id": "biz_112",
+      "as_of_date": "2025-07-29",
+      "question": "Tuần trước doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 70793,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 65200000
+    },
+    {
+      "id": "q_8df2a7aa2646",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "tháng 6/2026 có nhiêu ngày đạt dthu từ 12.000.000 đồng trở leen",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 7,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 36808000
+    },
+    {
+      "id": "q_8e2acddfe818",
+      "business_id": "biz_117",
+      "as_of_date": "2026-05-20",
+      "question": "trung bình mỗi đơn tháng 11/2025 mang về nhiêu dthu",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 1321748,
+      "gold_alias": [],
+      "pred_type": "unanswerable",
+      "pred_answer": null
+    },
+    {
+      "id": "q_8ee3f3222d9f",
+      "business_id": "biz_105",
+      "as_of_date": "2026-04-14",
+      "question": "tuan roi ca chieu co bao nhiu bill",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 541,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 39214300
+    },
+    {
+      "id": "q_8f4a89a3b3fe",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "Tháng 7/2026, doanh thu các đơn trả bằng tiền mặt là bao nhiêu, doanh thu các đơn trả bằng COD là bao nhiêu?",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        118148600,
+        13977600
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 118148600
+    },
+    {
+      "id": "q_8fb58ebe7913",
+      "business_id": "biz_117",
+      "as_of_date": "2026-05-20",
+      "question": "thang 2/2026 dthu binh quan moi don la bn",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1365501,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 875286400
+    },
+    {
+      "id": "q_908c0f903c5f",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "so vs th trước đó, doanh thu tháng 12/2025 tăng hay giảm mấy %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -0.35,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 197772000
+    },
+    {
+      "id": "q_921850fde380",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-24",
+      "question": "Trong tháng 3/2026, số ly size M bán đc là bao nhiêu, tính mọi loại đồ uống?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 6066,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 233361000
+    },
+    {
+      "id": "q_9266ece83b4a",
+      "business_id": "biz_112",
+      "as_of_date": "2025-06-08",
+      "question": "Doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiêu phần trăm so với cùng kỳ tháng trước?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 15.2,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -87.67
+    },
+    {
+      "id": "q_9477fcddf45f",
+      "business_id": "biz_112",
+      "as_of_date": "2025-06-15",
+      "question": "dthu từ đầu tháng này đến hết hnay hơn hay kém cùng kỳ tháng trước bao nhiêu phần trăm?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 3.93,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -88.56
+    },
+    {
+      "id": "q_95575307325b",
+      "business_id": "biz_112",
+      "as_of_date": "2026-05-30",
+      "question": "Tính từ ngày 1/1 đến hết hnay, doanh thu năm nay là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1537820000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 40643000
+    },
+    {
+      "id": "q_95827d19e775",
+      "business_id": "biz_121",
+      "as_of_date": "2025-07-15",
+      "question": "ê dthu từ đầu tháng này đến hết bữa nay tăng hay giảm bao nhiêu phần trăm so vs cùng kỳ th trước",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -0.41,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 18370300
+    },
+    {
+      "id": "q_9587f9b496c8",
+      "business_id": "biz_106",
+      "as_of_date": "2025-12-18",
+      "question": "check gium cong moi mon tinh theo ly, tuan trc ban ra dc may ly ha",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1594,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1767
+    },
+    {
+      "id": "q_9616f4d55ee6",
+      "business_id": "biz_103",
+      "as_of_date": "2026-02-27",
+      "question": "Tính từ ngày 1/1 đến hết hôm nay, doanh thu năm nay là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 452292400,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 50200100
+    },
+    {
+      "id": "q_9682c347c2e1",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "Tháng này, dthu các đơn bán tại quầy là bao nhiêu, doanh thu các đơn bán qua điện thoại là bao nhiêu?",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        149738300,
+        6739400
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 149738300
+    },
+    {
+      "id": "q_970f01ac7cec",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "so vs th truoc do, revenue thang 1/2026 tang hay giam may %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -2.37,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1565438800
+    },
+    {
+      "id": "q_97102a98a977",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "e dem so mat hang co mat o ≥ 187 don hang khac nhau trong thang 7/2026",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 13,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 337207000
+    },
+    {
+      "id": "q_97654148d172",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "Cho mình hỏi lấy số nhập trừ số bán của Bánh croissant trong tháng 10/2025 thì được bao nhiêu cái?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 163
+    },
+    {
+      "id": "q_981a28043fd6",
+      "business_id": "biz_130",
+      "as_of_date": "2026-05-19",
+      "question": "dthu tu dau thang nay den het hnay hon hay kem cung ky thang truoc bao nhieu phan tram",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 1.29,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -87.32
+    },
+    {
+      "id": "q_981e73d98b8d",
+      "business_id": "biz_121",
+      "as_of_date": "2026-06-05",
+      "question": "Tính từ ngày 1/1 đến hết hôm nay, doanh thu năm nay là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1368469100,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 8228300
+    },
+    {
+      "id": "q_9960c0b5773f",
+      "business_id": "biz_124",
+      "as_of_date": "2026-01-04",
+      "question": "doanh thu tu dau thang nay den het hnay tang hay giam bao nhieu phan tram so vs cung ky thang roi",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -15.17,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -100
+    },
+    {
+      "id": "q_997c474ebf21",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "cho toi dthu cac don ban tai quay va doanh thu cac don ban qua zalo oa thang 9/2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        207979500,
+        12071000
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 207979500
+    },
+    {
+      "id": "q_99bc48a3da13",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "dem so khach da mua ≥ 8 don trong thang 12/2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "unanswerable",
+      "gold_answer": null,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1332037000
+    },
+    {
+      "id": "q_9a288f7ce6e4",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "Đếm số khách đã mua ≥ 5 đơn trong tháng 5/2026.",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 68,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 189217400
+    },
+    {
+      "id": "q_9a4f10fb0f31",
+      "business_id": "biz_111",
+      "as_of_date": "2026-01-20",
+      "question": "so ly ban dc bua qua la bao nhieu, cong moi mat hang tinh theo ly ta",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 214,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 8907500
+    },
+    {
+      "id": "q_9a5b6712d6b1",
+      "business_id": "biz_106",
+      "as_of_date": "2025-08-25",
+      "question": "tuần trc ca chiều có bnhiu bill",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 393,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 28407000
+    },
+    {
+      "id": "q_9ac81ef15afa",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Tháng 4/2025 doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 110808,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 287435200
+    },
+    {
+      "id": "q_9ad226a1d120",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "dem so ngay trong thang 9 nam 2025 ma dthu ca ngay tu 7.900.000 dong tro len",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 15,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 241361400
+    },
+    {
+      "id": "q_9b8e86f964ef",
+      "business_id": "biz_122",
+      "as_of_date": "2025-03-11",
+      "question": "coi gium so vs cung ky th truoc, dthu tu dau thang nay den het hom nay tang hay giam bnhiu %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -4.66,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 6330100
+    },
+    {
+      "id": "q_9bc44da7a632",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "Từ tháng 3/2025 qua tháng 4/2025 rồi tháng 5/2025, doanh thu có tăng liên tục ko?",
+      "status": "WRONG_VALUE",
+      "gold_type": "boolean",
+      "gold_answer": true,
+      "gold_alias": [],
+      "pred_type": "boolean",
+      "pred_answer": false
+    },
+    {
+      "id": "q_9c0bf93dab16",
+      "business_id": "biz_108",
+      "as_of_date": "2026-05-29",
+      "question": "dthu từ khách nhóm sỉ tháng 1/2025 là bao nhiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 62799800,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 9825500
+    },
+    {
+      "id": "q_9c81a130f93c",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "ti le doanh thu thuoc ke don tren tong doanh thu thang 8/2026 la bao nhieu % vay",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 2.4,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 275675300
+    },
+    {
+      "id": "q_9ca8c9bcd510",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "Liệt kê 5 khách chi tiêu nhiều nhất trong tháng 3 năm 2026.",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Tăng Lan Hạnh",
+        "Đoàn Cường Thắng",
+        "Hứa Bảo Hùng",
+        "Phùng Quang Ngân",
+        "Vương Hiếu Thanh"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 1677825700
+    },
+    {
+      "id": "q_9cbdf3a6ec79",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "coi gium thang nay thu hoi duoc bao nhieu tien cong no tu khach mua chiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 3607583,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 8745584
+    },
+    {
+      "id": "q_9cf1b36e098b",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "Tháng 2/2026 doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 70874,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 135511000
+    },
+    {
+      "id": "q_9da820e20d62",
+      "business_id": "biz_116",
+      "as_of_date": "2025-09-05",
+      "question": "Cộng mọi mặt hàng tính theo cây, hôm qua bán ra được mấy cây ạ?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 55,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 212
+    },
+    {
+      "id": "q_9e90e058913b",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Doanh thu thuốc kê đơn tháng này bằng bao nhiêu phần trăm tổng doanh thu?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 2.71,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 317651000
+    },
+    {
+      "id": "q_9ecf3882dbe4",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "tháng 8/2025 nhà thuốc bans thuốc kê đơn đc bn tiền nhir",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 8185900,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 319228000
+    },
+    {
+      "id": "q_a02351e19462",
+      "business_id": "biz_109",
+      "as_of_date": "2025-08-30",
+      "question": "có bao nhiêu khách đang còn thiếu tiền cửa hàng tính tới hết ngày 30/08/2025",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 120,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 2352583900
+    },
+    {
+      "id": "q_a0b2d8694b3d",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "Tháng 2/2025, doanh thu các đơn trả bằng ví điện tử chiếm bao nhiêu phần trăm tổng doanh thu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 20.42,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 3.53
+    },
+    {
+      "id": "q_a0b9a08f3993",
+      "business_id": "biz_112",
+      "as_of_date": "2026-05-05",
+      "question": "Tuần trước doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 74218,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 82605000
+    },
+    {
+      "id": "q_a18463d68eda",
+      "business_id": "biz_108",
+      "as_of_date": "2026-05-29",
+      "question": "thang 12/2025 dthu binh quan moi don la bnhiu nhi",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 167334,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 285136600
+    },
+    {
+      "id": "q_a1aa3adfb66b",
+      "business_id": "biz_122",
+      "as_of_date": "2025-11-27",
+      "question": "e doanh thu tu dau thang nay den het hom nay hon hay kem cung ky th truoc bn %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -2.17,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 24651500
+    },
+    {
+      "id": "q_a1f8273809d6",
+      "business_id": "biz_103",
+      "as_of_date": "2026-05-01",
+      "question": "Xem giúp doanh thu từ đầu năm tới hết hôm nay là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 808430500,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 95632300
+    },
+    {
+      "id": "q_a21f3807940b",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "liệt kê 5 khách chi tiêu nhiều nhất trong tháng 7 năm 2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Thân Giang Giang",
+        "Tô Hằng Phong",
+        "Phạm Ngân Huy",
+        "Lâm Minh Hồng",
+        "Bùi Hoàng Cường"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 282063000
+    },
+    {
+      "id": "q_a261fd5dd101",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "dthu tháng 8/2025 tăng hay giảm bao nhiêu phần trăm so với th trước",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -12.95,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1365534500
+    },
+    {
+      "id": "q_a2dca8d2acc3",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "Tháng 5/2025 có bao nhiêu đơn hàng có doanh thu từ 42.000 đồng trở lên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1103,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 128
+    },
+    {
+      "id": "q_a2e949cc6bc8",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "so vs th truoc do, dthu thang 5/2026 tang hay giam may phan tram",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 3.09,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 262655000
+    },
+    {
+      "id": "q_a32d5dc937a6",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "đếm số ngày trong tháng 9 năm 2025 mà dthu cả ngày từ 59.000.000 đồng trở lên",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 12,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1627106800
+    },
+    {
+      "id": "q_a32dd6806e36",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "trong 3 tháng từ tháng 6/2026 đến tháng 8/2026, tháng nào có doanh thu cao nhất z",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2026-08",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Costar Omega 3 1000mg lọ 100 viên"
+    },
+    {
+      "id": "q_a383091ec4c7",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "so với th trước đó, doanh thu tháng 6/2025 tăng hay giảm mấy %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -4.62,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 194246000
+    },
+    {
+      "id": "q_a4560b62b198",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-24",
+      "question": "So tiền mua hàng tháng 11/2025 của khách ở đường Nguyễn Tất Thành với khách ở đường Bạch Đằng: bên nào nhiều hơn?",
+      "status": "WRONG_TYPE",
+      "gold_type": "unanswerable",
+      "gold_answer": null,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 0
+    },
+    {
+      "id": "q_a50a68e0fcf0",
+      "business_id": "biz_117",
+      "as_of_date": "2026-02-15",
+      "question": "Có bao nhiêu mặt hàng vẫn đang bán mà trong 7 ngày gần nhất không bán ra được cái nào?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 4,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 207658000
+    },
+    {
+      "id": "q_a521ddd46599",
+      "business_id": "biz_115",
+      "as_of_date": "2026-05-16",
+      "question": "đếm giúp tôi số mawtj hàng ế đến mức trong giai đoạn từ 29/07/2025 đến hết 04/08/2025 không bán dc lần nào",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 2,
+      "gold_alias": [],
+      "pred_type": "list",
+      "pred_answer": [
+        "Thép Pomina D16 cây 11.7m",
+        "Bồn nước inox Sơn Hà 1000L ngang"
+      ]
+    },
+    {
+      "id": "q_a536e1622568",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "dthu thang 5/2025 hon hay kem th truoc bnhiu %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 4.83,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1177286000
+    },
+    {
+      "id": "q_a5a4bb8b28bf",
+      "business_id": "biz_130",
+      "as_of_date": "2025-11-04",
+      "question": "tuần trc dthu bình quân mỗi bill là bao nhiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 544594,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 310418500
+    },
+    {
+      "id": "q_a61172c8c90e",
+      "business_id": "biz_128",
+      "as_of_date": "2025-09-11",
+      "question": "so bill hom nay la bao nhieu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 46,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 22950000
+    },
+    {
+      "id": "q_a634c6db12d4",
+      "business_id": "biz_123",
+      "as_of_date": "2025-12-04",
+      "question": "tinh den het ngay 04/12/2025, cac don dat da hon 7 ngay ma khach chua tra het con no bn tien",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 428550,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1045450
+    },
+    {
+      "id": "q_a666a74dcbea",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "tinh den het ngay 28/06/2026, co may mat hang con lo ton sap het han trong 90 ngay toi, tuc han dung tu 28/06/2026 den het 26/09/2026",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 5,
+      "gold_alias": [],
+      "pred_type": "list",
+      "pred_answer": [
+        "Siro ho Bổ phế Nam Hà Chỉ Khái Lộ chai 125ml",
+        "Siro ho cảm Ích Nhi chai 90ml",
+        "Voltaren Emulgel 1% tuýp 20g",
+        "Metformin Stella 500mg hộp 6 vỉ x 10 viên",
+        "Magne-B6 Corbière hộp 5 vỉ x 10 viên"
+      ]
+    },
+    {
+      "id": "q_a6c7de39ae5e",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "dthu thang 5/2026 so vs thang 5/2025 tang hay giam bao nhieu %",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 1.25,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 9.56
+    },
+    {
+      "id": "q_a72c4fccfdbd",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "Tháng 3/2025, số nhập trừ số bán của Telfast HD 180mg hộp 3 vỉ x 10 viên là bao nhiêu viên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": -28,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 238
+    },
+    {
+      "id": "q_a7da814c6e88",
+      "business_id": "biz_117",
+      "as_of_date": "2026-04-23",
+      "question": "từ đầu tháng này đến hết hôm nay, doanh thu thay đổi bnhiu % so vs cùng kỳ th trước",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 19.85,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1046120700
+    },
+    {
+      "id": "q_a7fe3e9336ec",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "5 khách hàng có tổng tiền mua cao nhất tháng 1/2025 là ai?",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Lê Dương Ngân",
+        "Hồ Dũng Thảo",
+        "Triệu Cường Huy",
+        "Lưu Anh Trung",
+        "Lưu Châu Hiếu"
+      ],
+      "gold_alias": [
+        [
+          "KH0129"
+        ],
+        [
+          "KH0061"
+        ],
+        [
+          "KH0201"
+        ],
+        [
+          "KH0040"
+        ],
+        [
+          "KH0289"
+        ]
+      ],
+      "pred_type": "number",
+      "pred_answer": 422402500
+    },
+    {
+      "id": "q_a86bb21fa753",
+      "business_id": "biz_122",
+      "as_of_date": "2026-07-17",
+      "question": "thang 7/2025 doanh thu hang k ke don la bao nhieu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 240357900,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 252225000
+    },
+    {
+      "id": "q_a8978d09f36e",
+      "business_id": "biz_122",
+      "as_of_date": "2026-07-17",
+      "question": "Tháng 5/2025 thu được bao nhiêu tiền từ các thuốc phải kê đơn?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 8954800,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 246039400
+    },
+    {
+      "id": "q_a8aeb33b648d",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Xem giúp doanh thu tháng 3 năm 2026 tăng trưởng bao nhiêu % so với tháng 3 năm 2025?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 10.82,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 43.8
+    },
+    {
+      "id": "q_a8e66a32c0cc",
+      "business_id": "biz_103",
+      "as_of_date": "2026-07-09",
+      "question": "dem so ngay trong thang 5 nam 2026 ma doanh thu ca ngay tu 5.500.000 dong tro len",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 14,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 164094900
+    },
+    {
+      "id": "q_a965ab7a53ee",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "Đếm số mặt hàng có mặt ở ≥ 92 đơn hàng khác nhau trong tháng 2/2025.",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 24,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 216045000
+    },
+    {
+      "id": "q_a9d7d7a4e827",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "trong 3 thang tu thang 7/2025 den thang 9/2025, thang nao co dthu cao nhat",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2025-07",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Lẩu Thái tôm cá (lớn)"
+    },
+    {
+      "id": "q_aa246e13cdb9",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-24",
+      "question": "Trong tháng 5/2025, số ly size M bán đc là bao nhiêu, tính mọi loại đồ uống?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5171,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 195793500
+    },
+    {
+      "id": "q_aa330a8cbd4e",
+      "business_id": "biz_129",
+      "as_of_date": "2025-07-09",
+      "question": "bữa qua toongr cộng bán dduwowcj bnhiu lon",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 59,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 374
+    },
+    {
+      "id": "q_aae0b8869b67",
+      "business_id": "biz_130",
+      "as_of_date": "2025-10-14",
+      "question": "Tổng doanh thu 7 ngày gần nhất là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 271247000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 30345000
+    },
+    {
+      "id": "q_ab5bf0b270f3",
+      "business_id": "biz_112",
+      "as_of_date": "2026-06-25",
+      "question": "Tuần trước cửa hàng bán ra tổng cộng mấy ly?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1751,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1962
+    },
+    {
+      "id": "q_ab5e0a06f4c1",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "thang nao dthu cao nhat trong ba thang 2/2025, 3/2025, 4/2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2025-04",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Lẩu Thái tôm cá (nhỏ)"
+    },
+    {
+      "id": "q_ab6f568c8295",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "Có bao nhiêu mặt hàng vẫn đang bán mà trong giai đoạn từ 12/02/2026 đến hết 18/02/2026 không bán ra được cái nào?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 4,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 194489000
+    },
+    {
+      "id": "q_abf4f8e63233",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "coi gium thang 1/2026 thu hoi duoc bn tien cong no tu khach mua chiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 31715542,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 19083061
+    },
+    {
+      "id": "q_ac40afedce04",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "Tháng 7/2025 doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 510295,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1047636000
+    },
+    {
+      "id": "q_acf7143a0d06",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "trừ thuốc kê đơn ra, tháng 6/2025 các mặt hàng còn lại bán đc bao nhiêu tiền hả",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 137395800,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 141335800
+    },
+    {
+      "id": "q_adfc00eae2e2",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "Cho hỏi trong tháng 5/2025, nhóm gỏi đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 9.45,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 121446000
+    },
+    {
+      "id": "q_af71f9fa7d55",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "Trong tháng 4/2026, nhóm nướng đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 10.88,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 107526000
+    },
+    {
+      "id": "q_af9d9cd7be87",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "Liệt kê 3 khách chi tiêu nhiều nhất trong tháng 12 năm 2025.",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Nguyễn Hương Thảo",
+        "Đinh Quân Nhung",
+        "Diệp Khoa Anh"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 1603499200
+    },
+    {
+      "id": "q_afbe1c75c766",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "Liệt kê 5 khách chi tiêu nhiều nhất trong tháng 3 năm 2025.",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Đoàn Mai Hồng",
+        "Trương Hồng Lan",
+        "Vũ Bảo Hạnh",
+        "Tạ Chi Đức",
+        "Hồ Linh Khoa"
+      ],
+      "gold_alias": [
+        [
+          "KH0247"
+        ],
+        [
+          "KH0078"
+        ],
+        [
+          "KH0294"
+        ],
+        [
+          "KH0210",
+          "Ta Chi Duc"
+        ],
+        [
+          "KH0137",
+          "Ho Linh Khoa"
+        ]
+      ],
+      "pred_type": "number",
+      "pred_answer": 151594100
+    },
+    {
+      "id": "q_afedc107ddb1",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "Cho hỏi ai là khách có số đơn mua nhiều nhất trong tháng 1 năm 2026?",
+      "status": "WRONG_VALUE",
+      "gold_type": "string",
+      "gold_answer": "Đinh Giang Hạnh",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Tăng Ngân Hà"
+    },
+    {
+      "id": "q_aff1f9ce5753",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "tháng này doanh thu từ khách nhóm sỉ đc bao nhiu đó",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 12405600,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 844500
+    },
+    {
+      "id": "q_b0473489a10c",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "tháng này thu hồi được nhiêu tiền công nợ từ khách mua chịu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 4900679,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 18147933
+    },
+    {
+      "id": "q_b0ff97ca1db9",
+      "business_id": "biz_112",
+      "as_of_date": "2025-12-11",
+      "question": "tuan nay ban duoc bn ly ha",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 771,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 883
+    },
+    {
+      "id": "q_b276ba56b8b1",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "Doanh thu tháng 3/2026 so với tháng 3/2025 tăng hay giảm bao nhiêu %?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -2.05,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -39.96
+    },
+    {
+      "id": "q_b2ea104e22e6",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "soos bill quý 2/2026 là bnhiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 3450,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 4709788100
+    },
+    {
+      "id": "q_b33c1f31d04d",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "Cho mình hỏi trong tháng 7/2026, nhóm khai vị đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 5.9,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 59551500
+    },
+    {
+      "id": "q_b3982529e05f",
+      "business_id": "biz_103",
+      "as_of_date": "2026-06-21",
+      "question": "tinh tu ngay 1/1 den het hnay, dthu nam nay la bn",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1094329200,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 19455100
+    },
+    {
+      "id": "q_b3b16e699a67",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-10",
+      "question": "tu dau thang nay den het bua nay, dthu thay doi bnhiu % so voi cung ky th truoc",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -6.36,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 126664300
+    },
+    {
+      "id": "q_b3e5c2fb4852",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "xem giúp tổng tiền bán các mặt hàng k kê đơn tháng 4/2026 là nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 129523500,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 134177600
+    },
+    {
+      "id": "q_b42ecb762c43",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "trong tháng 8/2025, nhóm mắt mũi họng đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 7.2,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 22992900
+    },
+    {
+      "id": "q_b46a38609042",
+      "business_id": "biz_108",
+      "as_of_date": "2026-05-29",
+      "question": "revenue thang 1 nam 2026 tang truong bnhiu % so vs thang 1 nam 2025",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -13.06,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 7.72
+    },
+    {
+      "id": "q_b4f6cbc04f48",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "coi gium thang 8/2025 dthu binh quan moi order la bao nhieu ha",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 159057,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 278031800
+    },
+    {
+      "id": "q_b5c5f0a182ba",
+      "business_id": "biz_103",
+      "as_of_date": "2026-02-20",
+      "question": "Doanh thu từ đầu tháng này đến hết hôm nay hơn hay kém cùng kỳ tháng trước bao nhiêu phần trăm?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 79.75,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -77.55
+    },
+    {
+      "id": "q_b5c6483cc5fd",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "xem giúp dthu tháng 7 năm 2026 tăng trưởng bn % so với tháng 7 năm 2025 nhỉ",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -7.4,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -8.04
+    },
+    {
+      "id": "q_b6bb52ac15af",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "thang 6/2025 mat hang Espresso (double) ban duoc tong cong bao nhieu ly",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 60,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 0
+    },
+    {
+      "id": "q_b7846d205f52",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Tháng 9/2025 bán hàng không cần đơn bác sĩ được bao nhiêu tiền?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 292217500,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 302746900
+    },
+    {
+      "id": "q_b90743fdcce6",
+      "business_id": "biz_101",
+      "as_of_date": "2026-07-06",
+      "question": "số bill hôm qua là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 35,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 5618900
+    },
+    {
+      "id": "q_b97a6a037819",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "xem giúp top 3 khách hàng có công nợ lớn nhất đến hết ngày 14/08/2026 và số nợ của từng người",
+      "status": "WRONG_VALUE",
+      "gold_type": "table",
+      "gold_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Thân Thu Phương",
+            949334
+          ],
+          [
+            "Ngô Anh Phong",
+            415000
+          ],
+          [
+            "Nghiêm Hà Phương",
+            391000
+          ]
+        ]
+      },
+      "gold_alias": [
+        [
+          "KH0104"
+        ],
+        [
+          "KH0050"
+        ],
+        [
+          "KH0150"
+        ]
+      ],
+      "pred_type": "table",
+      "pred_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Trương Hoàng An",
+            2711000
+          ],
+          [
+            "Châu Quân Tâm",
+            2196000
+          ],
+          [
+            "Thân Thu Phương",
+            949334
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q_b9b3bd170cef",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "Tháng 1/2025 dthu hàng không kê đơn là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 224796200,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 231295400
+    },
+    {
+      "id": "q_ba298d899d0e",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "Tháng 4/2025 có mấy mặt hàng được mua ở 231 đơn khác nhau trở lên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1266210000
+    },
+    {
+      "id": "q_bab2bec0be28",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-24",
+      "question": "Có mấy ngày trong tháng 2/2025 cửa hàng bán đc từ 10.000.000 đồng trở lên",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 16,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 274341000
+    },
+    {
+      "id": "q_bae69228405f",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "tháng 1/2026 doanh thu bình quaan mooix đơn là nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 178911,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 321145500
+    },
+    {
+      "id": "q_bbd22de66e7e",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "Đếm số mặt hàng có mặt ở ≥ 42 đơn hàng khác nhau trong tháng 7/2025.",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 27,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1454703600
+    },
+    {
+      "id": "q_bcb09dce000f",
+      "business_id": "biz_118",
+      "as_of_date": "2026-03-13",
+      "question": "Doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiêu phần trăm so với cùng kỳ tháng trước?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 23.42,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -89.07
+    },
+    {
+      "id": "q_bd2d824bb0a9",
+      "business_id": "biz_128",
+      "as_of_date": "2026-09-07",
+      "question": "thang 7/2025, doanh thu tu khach nhom than thiet chiem bao nhieu phan tram tong doanh thu cua cua hang nhi",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 19.13,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 17.47
+    },
+    {
+      "id": "q_be25f30b561e",
+      "business_id": "biz_117",
+      "as_of_date": "2026-05-20",
+      "question": "cuối ngày hoom nay lưới B40 mạ kẽm khổ 1.5m còn mấy cuộn 10m chẵn, maays m lẻ",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        5,
+        6
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 56
+    },
+    {
+      "id": "q_be2c1e544b63",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "xem giúp tháng 4/2025 doanh thu bình quân mỗi bill là bao nhiêu đó",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 533299,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 985537000
+    },
+    {
+      "id": "q_be9e016f3c5c",
+      "business_id": "biz_127",
+      "as_of_date": "2026-03-21",
+      "question": "tính riêng ngày hôm nay, cửa hàng bán được bao nhiu bill",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 81,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 39497000
+    },
+    {
+      "id": "q_bf8cd59968b5",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "Giúp mình đếm số khách đã mua ≥ 3 đơn trong tháng 3/2026.",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 174,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 245226200
+    },
+    {
+      "id": "q_bfa382e47ca0",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "trong tháng 11/2025, bao nhiêu sp có mặt trong ít nhất 145 bill",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 11,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 264914500
+    },
+    {
+      "id": "q_bfacc66b0773",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "trong thang 12 nam 2025, so ngay co dthu ≥ 44.000.000 dong la bao nhieu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 15,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1332037000
+    },
+    {
+      "id": "q_c00dc4e2a578",
+      "business_id": "biz_103",
+      "as_of_date": "2026-07-09",
+      "question": "giai đoạn từ 21/07/2025 đến heets 27/07/2025 có mấy món ế, k bán dc cái nào",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 3,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 34075600
+    },
+    {
+      "id": "q_c21e991a58fc",
+      "business_id": "biz_122",
+      "as_of_date": "2025-08-12",
+      "question": "Tuần trước doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 80280,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 48810100
+    },
+    {
+      "id": "q_c3f3d56ed4c9",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "so vs th truoc do, doanh thu thang 12/2025 tang hay giam may phan tram z",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -0.96,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 313773700
+    },
+    {
+      "id": "q_c42a5918a875",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "tien ban Son Maxilite trong nha 18L thang 9/2025 la bn do",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 50400000,
+      "gold_alias": [],
+      "pred_type": "unanswerable",
+      "pred_answer": null
+    },
+    {
+      "id": "q_c46ca1c8f9f4",
+      "business_id": "biz_109",
+      "as_of_date": "2025-06-29",
+      "question": "tổng dthu 7 ngày gần nhất là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 73648800,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 12648700
+    },
+    {
+      "id": "q_c594737e01f2",
+      "business_id": "biz_108",
+      "as_of_date": "2026-05-29",
+      "question": "cho hoi trong thang 7/2025, nhom bia dong gop bnhiu phan tram doanh thu ca cua hang",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 4.33,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 11578000
+    },
+    {
+      "id": "q_c6a0bb80b9f9",
+      "business_id": "biz_103",
+      "as_of_date": "2026-06-18",
+      "question": "So với cùng kỳ tháng trước, doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiêu % ạ?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 23.78,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -82.45
+    },
+    {
+      "id": "q_c6ed04cfa977",
+      "business_id": "biz_115",
+      "as_of_date": "2026-05-16",
+      "question": "Có bao nhiêu mặt hàng vẫn đang bán mà trong giai đoạn từ 22/10/2025 đến hết 28/10/2025 không bán ra đc cái nào?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 3,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 264568500
+    },
+    {
+      "id": "q_c7e48902ab25",
+      "business_id": "biz_130",
+      "as_of_date": "2025-11-26",
+      "question": "coi giùm từ đầu tháng này đến hết bữa nay, doanh thu hơn hay kém cùng kỳ tháng rồi mấy %",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -3.22,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -20.53
+    },
+    {
+      "id": "q_c8273e950235",
+      "business_id": "biz_103",
+      "as_of_date": "2026-07-09",
+      "question": "từ thangs 9/2025 qua tháng 10/2025 r tháng 11/2025, doanh thu có tăng liên tục hok vaayj",
+      "status": "WRONG_VALUE",
+      "gold_type": "boolean",
+      "gold_answer": false,
+      "gold_alias": [],
+      "pred_type": "boolean",
+      "pred_answer": true
+    },
+    {
+      "id": "q_c9df658464b7",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "Tháng 2/2025 có mấy mặt hàng được mua ở 35 đơn khác nhau trở lên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 28,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1320253500
+    },
+    {
+      "id": "q_ca29c57994d9",
+      "business_id": "biz_106",
+      "as_of_date": "2025-10-30",
+      "question": "den het ngay 30/10/2025, nhung don dat cach do hon 15 ngay ma chua tra het con no tong cong bn",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 290169,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1646673
+    },
+    {
+      "id": "q_cb6f587f5401",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "tháng 9/2025 dthu bình quân mỗi đơn hàng là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1450184,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1627106800
+    },
+    {
+      "id": "q_cb717b3a7e7c",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Khách nhóm thân thiết tháng 6/2025 mua trung bình bao nhiêu tiền hàng mỗi đơn?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 101603,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 44502000
+    },
+    {
+      "id": "q_cbaf5d921e3c",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "Tháng này, doanh thu các đơn trả bằng COD là bao nhiêu, doanh thu các đơn trả bằng chuyển khoản là bao nhiêu?",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        21961500,
+        190847000
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 190847000
+    },
+    {
+      "id": "q_cc989ac5d7a0",
+      "business_id": "biz_106",
+      "as_of_date": "2025-04-12",
+      "question": "Có bao nhiêu khách đang còn thiếu tiền cửa hàng tính tới hết ngày 12/04/2025 nhỉ?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 28,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 581225000
+    },
+    {
+      "id": "q_cd1f0f0fa1aa",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "ê tháng 8/2025 doanh thu bình quân mỗi bill là bn",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 70201,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 273505000
+    },
+    {
+      "id": "q_cd5692898ae3",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "cho hoi thang 10/2025, dthu cac don tra bang ck chiem bao nhieu phan tram tong doanh thu ha",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 41.43,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 100
+    },
+    {
+      "id": "q_cea0f8cb615c",
+      "business_id": "biz_103",
+      "as_of_date": "2026-07-09",
+      "question": "thang 12/2025 co may don co dthu tu 170.000 dong tro len",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 283,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 44
+    },
+    {
+      "id": "q_cea423d7b2f3",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Tháng 3/2025 thu hồi được bao nhiêu tiền công nợ từ khách mua chịu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1772664,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1242670
+    },
+    {
+      "id": "q_cf239556b57d",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "Tính đến hết ngày 28/06/2026, khách còn nợ cửa hàng tổng cộng bao nhiêu tiền",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 828084,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1899784
+    },
+    {
+      "id": "q_cfc505734c65",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "thang 10/2025 co may mat hang dc mua o 124 don khac nhau tro len ta",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 23,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 306937000
+    },
+    {
+      "id": "q_d05886ff8883",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "dthu thang 6 nam 2026 tang truong bnhiu % so vs thang 6 nam 2025",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -0.53,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 4.8
+    },
+    {
+      "id": "q_d15bde861202",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Giúp mình liệt kê 5 khách nợ nhiều nhất tính đến hết ngày 19/08/2026, kèm số tiền còn nợ.",
+      "status": "WRONG_VALUE",
+      "gold_type": "table",
+      "gold_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Ông Quang Hoàng",
+            145500
+          ],
+          [
+            "Tô Quân Bình",
+            125500
+          ],
+          [
+            "Từ Hải Thanh",
+            123000
+          ],
+          [
+            "Võ Tâm Phong",
+            111000
+          ],
+          [
+            "Vũ Khánh Tâm",
+            101000
+          ]
+        ]
+      },
+      "gold_alias": [
+        [
+          "KH0098"
+        ],
+        [
+          "KH0078"
+        ],
+        [
+          "KH0165",
+          "Từ Hải Thanh 0359470831"
+        ],
+        [
+          "KH0106"
+        ],
+        [
+          "KH0090",
+          "Vũ Khánh Tâm (0914849701)"
+        ]
+      ],
+      "pred_type": "table",
+      "pred_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Ông Quang Hoàng",
+            145500
+          ],
+          [
+            "Phùng Thanh Trang",
+            142000
+          ],
+          [
+            "Tô Quân Bình",
+            125500
+          ],
+          [
+            "Từ Hải Thanh",
+            123000
+          ],
+          [
+            "Cao Hương Hương",
+            121000
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q_d25f14d700e2",
+      "business_id": "biz_118",
+      "as_of_date": "2025-08-17",
+      "question": "từ đầu tháng này đến hết bữa nay, doanh thu thay đổi bao nhiu % so vs cùng kỳ th trước",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 0.29,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 841167900
+    },
+    {
+      "id": "q_d28ba56752c1",
+      "business_id": "biz_111",
+      "as_of_date": "2025-03-04",
+      "question": "Hôm qua bán được bao nhiêu ly?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 180,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 201
+    },
+    {
+      "id": "q_d35ca1b853e1",
+      "business_id": "biz_108",
+      "as_of_date": "2026-05-29",
+      "question": "doanh thu thang 12/2025 hon hay kem th truoc bnhiu phan tram",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 5.44,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 285136600
+    },
+    {
+      "id": "q_d401c0884402",
+      "business_id": "biz_130",
+      "as_of_date": "2025-08-03",
+      "question": "So với cùng kỳ tháng trước, doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiêu %?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -18.92,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -100
+    },
+    {
+      "id": "q_d4cbe9dbe3d0",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "Xem giúp tỉ lệ doanh thu thuốc kê đơn trên tổng doanh thu tháng 12/2025 là bao nhiêu %?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 2.8,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 313773700
+    },
+    {
+      "id": "q_d4f8f031e663",
+      "business_id": "biz_128",
+      "as_of_date": "2026-09-07",
+      "question": "khach nhom than thiet dong gop bn % tong dthu thang 8/2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 17.19,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 137882000
+    },
+    {
+      "id": "q_d5e26f1aba13",
+      "business_id": "biz_116",
+      "as_of_date": "2026-09-03",
+      "question": "Trong tháng 8/2025, nhóm ống nước đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 7.49,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 102286000
+    },
+    {
+      "id": "q_d6ed77a5c767",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-13",
+      "question": "dthu thang 8/2025 hon hay kem th truoc bao nhieu %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 5.38,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 143649900
+    },
+    {
+      "id": "q_d7dbc4edf96e",
+      "business_id": "biz_106",
+      "as_of_date": "2025-10-17",
+      "question": "tới hết ngày 17/10/2025, cửa hàng còn bn tiền khách nợ chưa thu",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 1176170,
+      "gold_alias": [],
+      "pred_type": "unanswerable",
+      "pred_answer": null
+    },
+    {
+      "id": "q_d8aed0de270b",
+      "business_id": "biz_117",
+      "as_of_date": "2026-05-20",
+      "question": "Trong tháng 5 năm 2025, số đơn có doanh thu ≥ 1.500.000 đồng là bao nhiêu vậy?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 235,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1171344700
+    },
+    {
+      "id": "q_d96319549a49",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "thang 7/2025 doanh thu binh quan moi bill la bnhiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 516805,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 980895000
+    },
+    {
+      "id": "q_d99a85034d64",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Chênh lệch nhập trừ bán của Smecta hộp 30 gói trong tháng 4 năm 2026 là bao nhiêu gói?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 41,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1309
+    },
+    {
+      "id": "q_da442271d416",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "Tháng 6/2026 có bao nhiêu ngày đạt doanh thu từ 10.000.000 đồng trở lên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 16,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1
+    },
+    {
+      "id": "q_da501a232d0c",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "Cho hỏi tháng 9/2025 thu được bao nhiêu tiền từ các thuốc phải kê đơn?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 6758400,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 241361400
+    },
+    {
+      "id": "q_dac20ca9084f",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "cho hoi trong thang nay, so ly size m ban duoc la bao nhieu, tinh moi loai do uong do",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2315,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 89986500
+    },
+    {
+      "id": "q_db4cefc5f21d",
+      "business_id": "biz_118",
+      "as_of_date": "2026-07-20",
+      "question": "so vs cùng kỳ th trước, dthu từ đầu tháng này đến hết bữa nay tăng hay giảm bao nhiêu %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -0.37,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 121390400
+    },
+    {
+      "id": "q_db575cf29bdc",
+      "business_id": "biz_115",
+      "as_of_date": "2026-05-16",
+      "question": "dthu nhóm hàng sắt thép chiếm nhiêu % toongr doanh thu tháng 10 năm 2025",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 9.17,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 96549000
+    },
+    {
+      "id": "q_dc139d793da1",
+      "business_id": "biz_112",
+      "as_of_date": "2026-07-31",
+      "question": "tháng 7/2026 quán bán đươc nhiêu ly size m",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 5152,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 199773500
+    },
+    {
+      "id": "q_dcc0b785c232",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "Tháng 2/2025 dthu bình quân mỗi đơn là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 158315,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 357633200
+    },
+    {
+      "id": "q_dcfec6518c19",
+      "business_id": "biz_118",
+      "as_of_date": "2026-09-10",
+      "question": "e co bao nhiu mat hang van dang ban ma trong giai doan tu 06/09/2025 den het 19/09/2025 khong ban ra duoc cai nao",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 762671300
+    },
+    {
+      "id": "q_de90d8e4c393",
+      "business_id": "biz_121",
+      "as_of_date": "2026-06-08",
+      "question": "dthu tu dau thang nay den het hnay tang hay giam bn phan tram so voi cung ky thang trc",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 22.11,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -86.69
+    },
+    {
+      "id": "q_df9676287589",
+      "business_id": "biz_122",
+      "as_of_date": "2026-07-17",
+      "question": "dthu nhoms hàng thực phẩm chức năng chiếm nhiêu % tổng revenue tháng 11 năm 2025 hả",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 7.1,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 16963300
+    },
+    {
+      "id": "q_dfe2b9e2e7b3",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "thangs 2/2026 top 3 hàng chạy nhất laf gì ta",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Snack Oishi tôm cay 40g",
+        "Mì Hảo Hảo tôm chua cay",
+        "Trứng gà so"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 468619600
+    },
+    {
+      "id": "q_e02828e34a34",
+      "business_id": "biz_103",
+      "as_of_date": "2026-07-09",
+      "question": "co may ngay trong thang 3/2026 cua hang ban duoc tu 5.000.000 dong tro len z",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 14,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 160685800
+    },
+    {
+      "id": "q_e079351d24aa",
+      "business_id": "biz_103",
+      "as_of_date": "2025-06-19",
+      "question": "dem giup toi so mon ban cham den muc trong 7 ngay gan nhat khong ban dc lan nao",
+      "status": "WRONG_TYPE",
+      "gold_type": "number",
+      "gold_answer": 1,
+      "gold_alias": [],
+      "pred_type": "list",
+      "pred_answer": [
+        "Sữa tắm Lifebuoy 850g"
+      ]
+    },
+    {
+      "id": "q_e07c3a1669e0",
+      "business_id": "biz_123",
+      "as_of_date": "2025-12-10",
+      "question": "cuoi ngay hom nay Yumangel hop 20 goi con bao nhieu goi",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 162,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 65
+    },
+    {
+      "id": "q_e2063c87da42",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "thang 4/2025 dthu tu khach nhom than thiet dc bao nhieu vay",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 40893700,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 6873000
+    },
+    {
+      "id": "q_e20aeef40c7f",
+      "business_id": "biz_108",
+      "as_of_date": "2026-05-29",
+      "question": "tháng 11/2025 dthu bình quaan mỗi bill là bao nhiêu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 166209,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 270421600
+    },
+    {
+      "id": "q_e2b37def329b",
+      "business_id": "biz_121",
+      "as_of_date": "2025-09-17",
+      "question": "dthu từ đầu tháng này đến hết hôm nay tăng hay giảm bn phần trăm so với cùng kỳ th trước",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -0.4,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 24380100
+    },
+    {
+      "id": "q_e2c5b02df95c",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "doanh thu thang 2/2025 hon hay kem th truoc bao nhiu phan tram vay",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -8.4,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 184698000
+    },
+    {
+      "id": "q_e2e41d53f803",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "tu thang 12/2025 toi thang 2/2026, thang nao cua hang ban duoc nhiu tien nhat vay",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2026-02",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Costar Omega 3 1000mg lọ 100 viên"
+    },
+    {
+      "id": "q_e31699330b55",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "Trong tháng 1/2026, nhóm dị ứng đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 3.36,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 11784000
+    },
+    {
+      "id": "q_e51a6496ab23",
+      "business_id": "biz_118",
+      "as_of_date": "2025-11-26",
+      "question": "7 ngay gan nhat cua hang ban ra tong cong may cay",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 248,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1383
+    },
+    {
+      "id": "q_e642e03faf24",
+      "business_id": "biz_118",
+      "as_of_date": "2026-07-14",
+      "question": "doanh thu tu dau nam toi het hnay la bao nhiu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 8843326100,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1148242200
+    },
+    {
+      "id": "q_e69a268b201f",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "tháng 12/2025 có bao nhiu đơn có doanh thu từ 290.000 đồng trở lên hả",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 185,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 25
+    },
+    {
+      "id": "q_e730b374d65b",
+      "business_id": "biz_103",
+      "as_of_date": "2025-12-07",
+      "question": "So với cùng kỳ tháng trước, doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiêu %?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 0.24,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -83.15
+    },
+    {
+      "id": "q_e81372dda9dc",
+      "business_id": "biz_130",
+      "as_of_date": "2026-04-27",
+      "question": "Tính từ ngày 1/1 đến hết hôm nay, doanh thu năm nay là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 4755641000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 207643500
+    },
+    {
+      "id": "q_e93f1acf5f58",
+      "business_id": "biz_108",
+      "as_of_date": "2026-05-29",
+      "question": "dthu từ khách nhóm thân thiết tháng 7/2025 là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 42558200,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 5991300
+    },
+    {
+      "id": "q_e9455734edd3",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "Xem giúp tháng 4/2026 khách ở đường Nguyễn Văn Linh mua tổng cộng bao nhiêu tiền?",
+      "status": "WRONG_TYPE",
+      "gold_type": "unanswerable",
+      "gold_answer": null,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 0
+    },
+    {
+      "id": "q_ea9608e77cc1",
+      "business_id": "biz_105",
+      "as_of_date": "2025-04-02",
+      "question": "Tổng doanh thu 7 ngày gần nhất là bao nhiêu vậy?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 81885000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 10975500
+    },
+    {
+      "id": "q_eb511424e498",
+      "business_id": "biz_122",
+      "as_of_date": "2026-07-17",
+      "question": "Trong các tháng 5/2025, 6/2025 và 7/2025, cửa hàng có doanh thu cao nhất vào tháng nào?",
+      "status": "WRONG_TYPE",
+      "gold_type": "date",
+      "gold_answer": "2025-07",
+      "gold_alias": [],
+      "pred_type": "string",
+      "pred_answer": "Salonpas cao dán hộp 24 gói x 10 miếng"
+    },
+    {
+      "id": "q_ec33e9c57c6e",
+      "business_id": "biz_121",
+      "as_of_date": "2026-09-20",
+      "question": "thang 2/2026 dthu hang hok ke don la bn do",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 242427700,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 250892100
+    },
+    {
+      "id": "q_ec7f47250481",
+      "business_id": "biz_123",
+      "as_of_date": "2026-06-28",
+      "question": "tháng này, dthu từ khách nhóm sỉ chiếm bn % tổng doanh thu của cửa hàng",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 7.47,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 2.88
+    },
+    {
+      "id": "q_eca9d1170a2b",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "revenue cac don tra bang cod thang 3/2026 la bn",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 12211000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1956000
+    },
+    {
+      "id": "q_ecca6bcc3dfc",
+      "business_id": "biz_103",
+      "as_of_date": "2026-07-09",
+      "question": "Đến hết ngày 09/07/2026, số tiền khách còn thiếu là bao nhiêu?",
+      "status": "WRONG_TYPE",
+      "gold_type": "unanswerable",
+      "gold_answer": null,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 2654844000
+    },
+    {
+      "id": "q_ecda32daaef2",
+      "business_id": "biz_108",
+      "as_of_date": "2026-05-29",
+      "question": "Trong tháng 3/2026, nhóm bánh kẹo đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 4.85,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 13458000
+    },
+    {
+      "id": "q_ecdbd349e0b2",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Liệt kê 3 khách nợ nhiều nhất tính đến hết ngày 19/08/2026, kèm số tiền còn nợ.",
+      "status": "WRONG_VALUE",
+      "gold_type": "table",
+      "gold_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Ông Quang Hoàng",
+            145500
+          ],
+          [
+            "Tô Quân Bình",
+            125500
+          ],
+          [
+            "Từ Hải Thanh",
+            123000
+          ]
+        ]
+      },
+      "gold_alias": [
+        [
+          "KH0098"
+        ],
+        [
+          "KH0078"
+        ],
+        [
+          "KH0165",
+          "Từ Hải Thanh 0359470831"
+        ]
+      ],
+      "pred_type": "table",
+      "pred_answer": {
+        "columns": [
+          "khach_hang",
+          "so_tien_no"
+        ],
+        "rows": [
+          [
+            "Ông Quang Hoàng",
+            145500
+          ],
+          [
+            "Phùng Thanh Trang",
+            142000
+          ],
+          [
+            "Tô Quân Bình",
+            125500
+          ]
+        ]
+      }
+    },
+    {
+      "id": "q_ece3c46e24d3",
+      "business_id": "biz_105",
+      "as_of_date": "2026-05-29",
+      "question": "dthu tu dau thang nay den het hom nay tang hay giam bao nhieu % so voi cung ky thang roi do",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 2.83,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -86.55
+    },
+    {
+      "id": "q_ecf144db70a1",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "Tính đến hết ngày 14/08/2026, khách hàng còn nợ cửa hàng tổng cộng bao nhiêu tiền?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2854584,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 8745584
+    },
+    {
+      "id": "q_ed5f36c5ec64",
+      "business_id": "biz_110",
+      "as_of_date": "2026-05-03",
+      "question": "soos bill hqua là nhiêu đó",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 50,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 3786000
+    },
+    {
+      "id": "q_edc6c6cd6326",
+      "business_id": "biz_128",
+      "as_of_date": "2026-03-27",
+      "question": "Số lon bán được hôm qua là bao nhiêu, cộng mọi mặt hàng tính theo lon?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 95,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 33759000
+    },
+    {
+      "id": "q_ee0f5dce73bd",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "cho hoi thang 6/2025, dthu tu khach nhom than thiet chiem bao nhiu phan tram tong doanh thu cua cua hang",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 14.37,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 12.09
+    },
+    {
+      "id": "q_eef55227353d",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "doanh thu tet nam nay so vs tet nam truoc thay doi may phan tram ha",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 23.02,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 225925500
+    },
+    {
+      "id": "q_ef9ec0a860f8",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "Tháng 6/2026 thu hồi được bao nhiêu tiền công nợ từ khách mua chịu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 9792001,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1918334
+    },
+    {
+      "id": "q_f07d1a553011",
+      "business_id": "biz_117",
+      "as_of_date": "2026-05-20",
+      "question": "Tháng 8/2025 có bao nhiêu đơn có doanh thu từ 3.300.000 đồng trở lên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 88,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 11
+    },
+    {
+      "id": "q_f14c7c3cd8ad",
+      "business_id": "biz_102",
+      "as_of_date": "2026-06-16",
+      "question": "3 khach co tong tien mua cao nhat thang 4/2025 la ai ha",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        "Giang Hải Linh",
+        "Quách An Ngân",
+        "Trịnh Khoa An"
+      ],
+      "gold_alias": [
+        [],
+        [],
+        []
+      ],
+      "pred_type": "number",
+      "pred_answer": 274547600
+    },
+    {
+      "id": "q_f19c4e273491",
+      "business_id": "biz_110",
+      "as_of_date": "2026-07-03",
+      "question": "quý 4/2025 cuwar hàng có bn order ddos",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 6236,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 440255500
+    },
+    {
+      "id": "q_f1c5c01b78e0",
+      "business_id": "biz_105",
+      "as_of_date": "2026-06-24",
+      "question": "Tháng 2/2026 có mấy đơn có dthu từ 130.000 đồng trở lên?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 385,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 53
+    },
+    {
+      "id": "q_f1d3c9b81e5f",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "tháng 9/2025 có mấy đơn có doanh thu từ 430.000 đồng trở lên",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1215,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 170
+    },
+    {
+      "id": "q_f1fe75cfb100",
+      "business_id": "biz_121",
+      "as_of_date": "2025-10-16",
+      "question": "tu dau thang nay den het hom nay, doanh thu thay doi bao nhieu % so vs cung ky th truoc",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 19.21,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 149100400
+    },
+    {
+      "id": "q_f30519d574c5",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "Khách còn nợ cửa hàng tổng cộng bao nhiêu tính đến hết ngày 28/07/2026?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 2525501,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 7232501
+    },
+    {
+      "id": "q_f30ba7c5b587",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "cho hoi dthu cac don tra bang chuyen khoan thang nay la bao nhieu",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 52889000,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 9465000
+    },
+    {
+      "id": "q_f448394fcfee",
+      "business_id": "biz_120",
+      "as_of_date": "2026-06-12",
+      "question": "thang 9/2025, dthu cac don ban qua dien thoai la bao nhieu, doanh thu cac don ban qua zalo oa la bao nhieu",
+      "status": "WRONG_TYPE",
+      "gold_type": "list",
+      "gold_answer": [
+        13759000,
+        16074900
+      ],
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 16074900
+    },
+    {
+      "id": "q_f4c328691e9b",
+      "business_id": "biz_117",
+      "as_of_date": "2025-07-20",
+      "question": "dthu tu dau thang nay den het hom nay tang hay giam bn % so voi cung ky thang trc",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -32.31,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -90.92
+    },
+    {
+      "id": "q_f4cba6071b48",
+      "business_id": "biz_127",
+      "as_of_date": "2026-07-28",
+      "question": "check gium thang 9/2025 dthu binh quan moi don la bn",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 541323,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1040423000
+    },
+    {
+      "id": "q_f519b57113e1",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "check giumf dthu tết năm nay so vs tết năm trc thay đổi mấy phần trăm",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": -26.22,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 289686400
+    },
+    {
+      "id": "q_f673036bdd05",
+      "business_id": "biz_108",
+      "as_of_date": "2026-05-29",
+      "question": "dthu thang 2/2026 hon hay kem th truoc bn %",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 49.23,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 458365900
+    },
+    {
+      "id": "q_f750d1f1110c",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "dthu tháng 5 năm 2026 tăng trưởng bao nhiêu % so với tháng 5 năm 2025?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -12.94,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 3.73
+    },
+    {
+      "id": "q_f7a67bc6eecd",
+      "business_id": "biz_117",
+      "as_of_date": "2025-04-06",
+      "question": "Có bao nhiêu mặt hàng vẫn đang bán mà trong 7 ngày gần nhất không bán ra được cái nào?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 1,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 211069700
+    },
+    {
+      "id": "q_f7b8eb9ecf98",
+      "business_id": "biz_130",
+      "as_of_date": "2026-08-29",
+      "question": "dthu thangs 7/2026 hơn hay kém th trước bao nhiu % ta",
+      "status": "WRONG_TYPE",
+      "gold_type": "percent",
+      "gold_answer": 6.98,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1408844000
+    },
+    {
+      "id": "q_f83527adf40d",
+      "business_id": "biz_106",
+      "as_of_date": "2026-09-14",
+      "question": "thang 12/2025 co may don co doanh thu tu 130.000 dong tro len",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 456,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 75
+    },
+    {
+      "id": "q_fb1a1dcf3a4b",
+      "business_id": "biz_118",
+      "as_of_date": "2025-10-22",
+      "question": "Doanh thu từ đầu tháng này đến hết hôm nay tăng hay giảm bao nhiêu phần trăm so với cùng kỳ tháng trước?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": -23.95,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -82.44
+    },
+    {
+      "id": "q_fbce2202d8da",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "Cho hỏi doanh thu tháng 4 năm 2026 tăng trưởng bao nhiêu % so với tháng 4 năm 2025?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 16.62,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 1.49
+    },
+    {
+      "id": "q_fcafb39ec35f",
+      "business_id": "biz_109",
+      "as_of_date": "2026-08-05",
+      "question": "Tháng 2/2025, khách đường Lê Trọng Tấn và khách đường Trần Não, bên nào mua nhiều tiền hơn nhỉ?",
+      "status": "WRONG_TYPE",
+      "gold_type": "unanswerable",
+      "gold_answer": null,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 0
+    },
+    {
+      "id": "q_fccd343bf6f1",
+      "business_id": "biz_104",
+      "as_of_date": "2026-06-02",
+      "question": "Tháng 7/2025 dthu bình quân mỗi đơn hàng là bao nhiêu?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 73191,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 210130500
+    },
+    {
+      "id": "q_fe07ca19cfd8",
+      "business_id": "biz_108",
+      "as_of_date": "2026-05-29",
+      "question": "Doanh thu tháng 3 năm 2026 tăng trưởng bao nhiêu % so với tháng 3 năm 2025?",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 12.59,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": -39.52
+    },
+    {
+      "id": "q_fe67932c2f2e",
+      "business_id": "biz_129",
+      "as_of_date": "2026-08-14",
+      "question": "coi giùm tháng 3/2025 doanh thu bình quân mỗi đơn là bao nhiu z",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 529641,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 1178451500
+    },
+    {
+      "id": "q_fe769cf4ec48",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "check gium trong thang 1/2025, so ly size M ban dc la bao nhieu, tinh moi loai do uong",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 3123,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 117530000
+    },
+    {
+      "id": "q_fe7efca0973e",
+      "business_id": "biz_122",
+      "as_of_date": "2026-07-17",
+      "question": "Trừ thuốc kê đơn ra, tháng 2/2026 các mặt hàng còn lại bán được bao nhiêu tiền?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 238810400,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 252287000
+    },
+    {
+      "id": "q_fe8f9e79f8b5",
+      "business_id": "biz_124",
+      "as_of_date": "2026-05-25",
+      "question": "Trừ thuốc kê đơn ra, tháng 4/2026 các mặt hàng còn lại bán đc bao nhiêu tiền",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 356487300,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 367261000
+    },
+    {
+      "id": "q_fee5b1d42b55",
+      "business_id": "biz_111",
+      "as_of_date": "2026-08-19",
+      "question": "thang 7/2026, dthu cac don tra bang tm chiem bao nhieu phan tram tong doanh thu",
+      "status": "WRONG_VALUE",
+      "gold_type": "percent",
+      "gold_answer": 40.3,
+      "gold_alias": [],
+      "pred_type": "percent",
+      "pred_answer": 20.43
+    },
+    {
+      "id": "q_ff2b80a25b4e",
+      "business_id": "biz_119",
+      "as_of_date": "2026-07-02",
+      "question": "hqua cửa hàng bán ra tổng cộng mấy gói?",
+      "status": "WRONG_VALUE",
+      "gold_type": "number",
+      "gold_answer": 220,
+      "gold_alias": [],
+      "pred_type": "number",
+      "pred_answer": 726
+    }
+  ]
+}

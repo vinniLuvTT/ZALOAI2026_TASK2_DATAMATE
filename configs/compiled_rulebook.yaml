@@ -1,0 +1,123 @@
+# Compiled Rulebook cho DataMate (Zalo AI Challenge 2026)
+# Thiết kế tối ưu cho Hybrid LLM (Kaggle T4 x2) + Deterministic Execution Engine
+
+version: "2026.1"
+
+hardware_profile:
+  target: "kaggle_t4_x2"
+  gpus: 2
+  vram_per_gpu_gb: 16
+  total_vram_gb: 32
+  compute_capability: "sm_75"
+  recommended_vllm_args:
+    tensor_parallel_size: 2
+    dtype: "float16"           # T4 (SM75) không hỗ trợ native bfloat16; bắt buộc dùng float16
+    max_model_len: 8192
+    gpu_memory_utilization: 0.90
+    enforce_eager: false
+  recommended_models:
+    primary: "Qwen/Qwen2.5-Coder-14B-Instruct-AWQ"
+    alternative_fp16: "Qwen/Qwen2.5-Coder-14B-Instruct"
+    fallback_fast: "Qwen/Qwen2.5-Coder-7B-Instruct"
+
+global_invariants:
+  as_of_date_cutoff:
+    description: "Mọi bản ghi có ngày > as_of_date coi như chưa xảy ra đối với các câu hỏi tính theo hôm nay."
+    exception: "Trạng thái huỷ và trả hàng của đơn luôn lấy theo trạng thái của đơn (kể cả khi phiếu trả hoặc lô trả ghi ngày sau as_of_date)."
+  order_status_mapping:
+    completed: ["hoàn thành", "đã hoàn thành", "xong", "đã xong", "đã lấy", "đã giao", "ok", "đặt hàng (đã duyệt)"]
+    delivering: ["đang giao", "đang vận chuyển", "chờ giao"]
+    cancelled: ["huỷ", "đã huỷ", "hủy", "đã hủy", "cancel", "cancelled"]
+    returned: ["trả hàng", "đổi trả", "đã trả hàng", "hoàn trả", "khách trả lại"]
+  valid_sales_statuses: ["completed", "delivering"]
+  valid_debt_statuses: ["completed", "delivering", "returned"]
+  all_statuses: ["completed", "delivering", "cancelled", "returned"]
+
+rounding_rules:
+  money_vnd: "ROUND_HALF_UP_INT"      # Làm tròn về đồng, nửa đồng làm tròn lên: floor(x + 0.5)
+  average_money_vnd: "ROUND_HALF_UP_INT"
+  percent: "ROUND_HALF_UP_2DEC"       # 2 chữ số thập phân, ví dụ 12.456 -> 12.46
+  other_average: "ROUND_HALF_UP_2DEC"
+
+tie_breaking:
+  with_code: "code_asc"               # Mã tăng dần (SP0001 < SP0002, KH0001 < KH0002)
+  without_code: "name_asc"            # Tên tăng dần nếu shop không có mã
+
+special_definitions:
+  loyal_customer: "Khách trung thành nhất = khách có nhiều ngày có mua nhất trong kỳ (chỉ tính đơn không huỷ, không trả; bỏ khách lẻ)."
+  big_spender_customer: "Khách sộp nhất = khách có giá trị trung bình một đơn cao nhất trong kỳ, chỉ xét khách có từ 3 đơn trở lên trong kỳ."
+  fickle_customer: "Khách hay đổi ý nhất = khách có nhiều đơn huỷ nhất trong kỳ."
+  popular_product: "Mặt hàng được ưa chuộng nhất = mặt hàng có mặt trong nhiều đơn nhất trong kỳ (đơn không huỷ, không trả)."
+  hardworking_staff: "Nhân viên, thợ chăm chỉ nhất = người có nhiều ngày làm việc nhất trong kỳ (ngày có ít nhất 1 đơn hoặc phiếu sửa/bảo hành do người đó làm)."
+  busiest_day: "Ngày đắt khách nhất = ngày có nhiều đơn nhất trong kỳ (đơn không huỷ, không trả)."
+  peak_hour: "Giờ cao điểm = khung 1 giờ tròn [h, h+1) theo giờ tạo đơn có nhiều đơn nhất trong kỳ; trả về số nguyên h (type number)."
+  main_supplier: "Nhà cung cấp chính = nhà cung cấp có nhiều phiếu nhập nhất trong kỳ (bỏ phiếu huỷ). Khác với nhà cung cấp nhập nhiều tiền nhất."
+  out_of_stock_eod: "Mặt hàng hết hàng cuối ngày D = mặt hàng mua về để bán (không tính món pha chế/chế biến tại chỗ) có tồn kho lúc hết ngày D bằng 0."
+  unsold_product_in_period: "Mặt hàng không bán được (ế) trong kỳ = mặt hàng đã từng bán trước kỳ (trong đơn hợp lệ §1 trước ngày bắt đầu kỳ) nhưng trong kỳ có 0 đơn hợp lệ mua."
+  weekday_average: "Trung bình mỗi ngày thứ X của kỳ = tổng phát sinh vào các ngày thứ X trong kỳ chia cho tổng số ngày thứ X theo lịch trong kỳ (kể cả ngày không có đơn/phiếu)."
+  subjective_unanswerable_terms:
+    - "trung thực nhất"
+    - "nhiệt tình nhất"
+    - "đáng tin cậy"
+    - "nhà cung cấp uy tín"
+    - "thân thiện nhất"
+    - "khó tính nhất"
+    - "chất lượng tốt nhất"
+    - "ngon nhất"
+    - "lành nghề nhất"
+    - "tay nghề cao nhất"
+    - "khách hay khen"
+    - "tận tâm"
+    - "lễ phép"
+    - "chu đáo"
+    - "quý mến nhất"
+    - "nên uống mỗi lần mấy viên"
+
+domain_rules:
+  cafe:
+    keywords: ["cà phê", "trà sữa", "sinh tố", "size (m)", "size (l)", "topping"]
+    rules:
+      - "Size M, size L: món có tên kết thúc bằng (M) hoặc (L), không phân biệt hoa thường."
+      - "Topping ghi chung ô với món (nối bằng ' + ', tiền trong ngoặc): tách thành mặt hàng Topping riêng, trừ tiền topping khỏi tiền món gốc."
+  pharmacy:
+    keywords: ["nhà thuốc", "hoạt chất", "thuốc kê đơn", "hạn sử dụng", "số lô"]
+    rules:
+      - "Thuốc kê đơn: sản phẩm có cờ kê đơn = True/1 trong danh mục thuốc. Tỉ lệ kê đơn = Doanh thu thuốc kê đơn / Tổng doanh thu cả shop * 100."
+      - "Hàng hết hạn trong N ngày tới tại D: lô còn tồn > 0 có hạn dùng từ D đến hết D + N. Tiền vốn lô = tồn cuối lô (ĐVT cơ bản) * giá nhập của chính lô đó quy về ĐVT cơ bản."
+      - "Doanh thu theo hoạt chất: khớp chính xác chuỗi hoạt chất trong danh mục thuốc (thuốc phối hợp nhiều hoạt chất nối bằng ' + ' là một loại riêng)."
+      - "Lô gần hết hạn nhất của một thuốc: trong các lô còn tồn > 0 và có HSD >= as_of_date, lấy lô có HSD nhỏ nhất."
+  construction:
+    keywords: ["xi măng", "gạch", "sắt thép", "cát đá", "đợt giao", "lần giao", "vật liệu xây dựng"]
+    rules:
+      - "Số đợt giao trong tháng X: đếm số đợt (mỗi cặp mã đơn + lần giao là 1 đợt) có ngày giao trong tháng X (và <= as_of_date), tính cả đợt của đơn sau đó trả hàng."
+      - "Hàng bán theo bó (ống PVC Bình Minh D32/D50/D90): 1 bó = 10 cây."
+  mother_baby:
+    keywords: ["mẹ và bé", "bỉm", "tã", "sữa bột", "dùng điểm", "tên bé"]
+    rules:
+      - "Các dòng không phải hàng trong hoá đơn ('Voucher', 'Dùng <n> điểm', 'Phí ship'): không tính vào doanh thu mặt hàng. Khi hỏi tiền giảm voucher, tiền giảm dùng điểm, phí ship: trả số dương, cộng theo ngày hoá đơn của các đơn không huỷ, không trả."
+      - "Số sữa, size bỉm: chỉ lấy theo cột 'Số / Size' trong DanhMuc (trống thì bỏ qua dù tên hàng có số). Tỉ trọng % của một size/hãng bỉm chia cho tổng số bịch mọi hàng nhóm 'bỉm tã' cùng kỳ."
+      - "Khách thành viên mới trong tháng: đếm khách trong sheet KhachHang có Ngày đăng ký trong tháng đó, kể cả khách chưa mua."
+  auto_repair:
+    keywords: ["sửa xe", "biển số", "thợ", "nhớt", "bảo hành", "hoa hồng"]
+    rules:
+      - "Mỗi dòng sổ sửa xe là 1 lượt xe (1 phiếu), kể cả phiếu bảo hành (Tiền = 0 hoặc ghi chú bảo hành). Số phiếu/lượt xe của tiệm hoặc thợ tính cả phiếu bảo hành."
+      - "Tiền trung bình 1 phiếu: chia cho số phiếu CÓ THU TIỀN (không tính phiếu bảo hành)."
+      - "Việc trong ô 'Làm gì': phiếu bảo hành KHÔNG tính vào số lượt làm việc đó. 'Nhớt' trơn là nhớt máy (không tính 'nhớt láp'). 'Ruột' trơn là thay ruột mới (không tính 'vá'). 'Sửa điện' không gồm thay bóng đèn, thay ắc quy."
+      - "Số chiếc xe khác nhau = số biển số khác nhau (tính cả xe chỉ tới bảo hành). Xe khách quen = biển số có >= 2 phiếu CÓ THU TIỀN trong kỳ; trả lời bằng biển số."
+      - "Tỉ lệ bảo hành trong kỳ = (số phiếu bảo hành trong kỳ / số phiếu có thu tiền trong kỳ) * 100."
+  phone_shop:
+    keywords: ["imei", "thu máy cũ", "trả góp", "ghi tắt", "dòng máy"]
+    rules:
+      - "Doanh thu một đơn = tổng Thành tiền các dòng hàng (KHÔNG trừ tiền Bớt cả đơn, KHÔNG trừ tiền Thu máy cũ)."
+      - "Khách phải trả của đơn = Tổng thành tiền dòng − Bớt − Thu máy cũ (chính là cột 'Khách trả' ghi trên sổ bán)."
+      - "Đơn trả góp là đơn ghi nợ: phần chưa góp là nợ còn lại; các lần đóng tiền góp sau ngày mua là thu nợ / trả nợ; kỳ góp có hạn < ngày hỏi mà chưa góp đủ là quá hạn."
+      - "Tỉ lệ bảo hành quý = (số lượt nhận bảo hành trong quý / tổng số máy mới + máy cũ bán ra trong quý của đơn không huỷ, không trả) * 100."
+      - "Dòng máy = phần tên hàng đứng trước '<số>GB' (nếu không có 'GB' như 'Nokia 105 4G' thì cả tên là dòng máy). Hãng = chữ đầu tên hàng (riêng iPhone thuộc hãng Apple)."
+  restaurant:
+    keywords: ["phí phục vụ", "phòng lạnh", "khu vực", "phòng/bàn"]
+    rules:
+      - "Dòng 'Phí phục vụ' KHÔNG phải mặt hàng (không xếp hạng mặt hàng, không đếm là mặt hàng), nhưng VẪN tính vào tổng doanh thu đơn và mẫu số tỉ trọng doanh thu nhóm hàng."
+  grocery:
+    keywords: ["tạp hóa", "nước giải khát", "mì", "gia vị"]
+    rules:
+      - "Quy đổi đơn vị tính nghiêm ngặt theo bảng quy đổi hoặc danh sách quy đổi trong README."

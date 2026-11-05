@@ -1,0 +1,4 @@
+version,split,total,correct,abstain,wrong_value,wrong_type,format_error,score,normalized_score,accuracy,runtime_sec,qps,notes
+v1,train,3000,1507,18,851,624,0,32,0.0107,50.23%,30.12,99.60,Initial rulebook baseline; type routing and temporal window ambiguities
+v2,train,3000,2562,0,297,141,0,2124,0.7080,85.40%,31.96,93.86,Canonical business caching; full temporal expansion; Vietnamese number parsing
+v3,train,3000,2874,0,112,14,0,2748,0.9160,95.80%,31.94,93.93,Fixed wday_map collision; customer threshold routing; pharmacy rx filter; cafe drinks filtering
