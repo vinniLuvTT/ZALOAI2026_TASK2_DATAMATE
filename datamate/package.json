@@ -1,0 +1,16 @@
+{
+  "name": "datamate-cube",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cube Core + DuckDB driver used as the semantic layer",
+  "dependencies": {
+    "@cubejs-backend/server": "^1.3.0",
+    "@cubejs-backend/duckdb-driver": "^1.3.0"
+  },
+  "allowScripts": {
+    "duckdb@1.4.4": true,
+    "@cubejs-backend/native@1.4.6": true,
+    "@cubejs-backend/cubestore@1.4.6": true,
+    "es5-ext@0.10.64": true
+  }
+}

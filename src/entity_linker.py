@@ -192,12 +192,17 @@ class EntityLinker:
 
         # 2. Link Staff / Mechanic
         if not self.cb.mechanics.empty:
+            # Column names follow `_build_auto_repair` in src/canonical.py
+            # (`mechanic_name`, `mechanic_norm`); the alias is the given name.
             for _, mr in self.cb.mechanics.iterrows():
-                al = mr["alias_norm"]
-                fn = mr["full_name_norm"]
+                full = clean_str(mr.get("mechanic_name"))
+                if not full:
+                    continue
+                fn = clean_str(mr.get("mechanic_norm")) or norm_key(full)
+                al = norm_key(full.split()[-1])
                 if (fn and f" {fn} " in q_padded) or (al and re.search(rf"\b(?:tho|anh|chu)\s+{re.escape(al)}\b", q_nk)):
                     res.mechanic_norm = fn
-                    res.mechanic_name = mr["full_name"]
+                    res.mechanic_name = full
                     break
         if not self.cb.orders.empty and "staff_id" in self.cb.orders.columns:
             for st_id in self.cb.orders["staff_id"].dropna().unique():

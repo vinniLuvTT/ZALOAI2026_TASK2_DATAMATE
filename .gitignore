@@ -13,6 +13,10 @@ train/
 public_test/
 *.zip
 *.pkl
+*.duckdb
+*.duckdb.wal
+datamate/models/
+datamate/out*/
 artifacts/
 submission.jsonl
 
